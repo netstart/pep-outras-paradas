@@ -1,0 +1,52 @@
+﻿node.exe : npm notice run peptide-lab@1.0.0 npx
+No linha:1 caractere:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\ck\AppData\Roaming\npm ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm notice run peptide-lab@1.0.0 npx:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm notice run jest --silent
+FAIL __tests__/peptides.schema.test.ts
+  ● Integridade editorial do catálogo › CJC-1295 (io DAC estudo fase 1): tem contraindicações, monitoramento e status 
+WADA
+
+    expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+      27 |
+      28 |   it.each(peptides.map((p) => [p.nome, p] as const))('%s: tem contraindicações, monitoramento e status 
+WADA', (_n, p) => {
+    > 29 |     expect(p.contraindicacoes.length).toBeGreaterThan(0);
+         |                                       ^
+      30 |     expect(p.sinaisAlerta.length).toBeGreaterThan(0);
+      31 |     expect(p.monitoramento.length).toBeGreaterThan(0);
+      32 |     expect(p.statusWada).toBeTruthy();
+
+      at toBeGreaterThan (__tests__/peptides.schema.test.ts:29:39)
+
+  ● Integridade editorial do catálogo › MOTS-c: tem contraindicações, monitoramento e status WADA
+
+    expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+      27 |
+      28 |   it.each(peptides.map((p) => [p.nome, p] as const))('%s: tem contraindicações, monitoramento e status 
+WADA', (_n, p) => {
+    > 29 |     expect(p.contraindicacoes.length).toBeGreaterThan(0);
+         |                                       ^
+      30 |     expect(p.sinaisAlerta.length).toBeGreaterThan(0);
+      31 |     expect(p.monitoramento.length).toBeGreaterThan(0);
+      32 |     expect(p.statusWada).toBeTruthy();
+
+      at toBeGreaterThan (__tests__/peptides.schema.test.ts:29:39)
+
+PASS __tests__/verifier.test.ts
+
+Test Suites: 1 failed, 1 passed, 2 total
+Tests:       2 failed, 98 passed, 100 total
+Snapshots:   0 total
+Time:        1.729 s, estimated 2 s

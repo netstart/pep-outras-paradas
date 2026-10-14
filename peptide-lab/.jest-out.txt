@@ -1,0 +1,115 @@
+﻿node.exe : npm notice run peptide-lab@1.0.0 npx
+No linha:1 caractere:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\ck\AppData\Roaming\npm ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm notice run peptide-lab@1.0.0 npx:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm notice run jest __tests__/peptides.schema.test.ts
+FAIL __tests__/peptides.schema.test.ts
+  Integridade editorial do catálogo
+    √ catálogo piloto tem pelo menos 5 fichas (2 ms)
+    √ Semaglutida: campos obrigatórios preenchidos (1 ms)
+    √ BPC-157: campos obrigatórios preenchidos (1 ms)
+    √ TB-500: campos obrigatórios preenchidos
+    √ Ipamorelin: campos obrigatórios preenchidos (1 ms)
+    √ GHK-Cu: campos obrigatórios preenchidos
+    √ Turinabol (Clorodeidrometiltestosterona, DHCMT): campos obrigatórios preenchidos
+    √ Primabolan (Methenolone, Hetabolan): campos obrigatórios preenchidos
+    √ Masteron (Drostanolone, Drol): campos obrigatórios preenchidos
+    √ Decanoato de Nandrolona (Deca-Durabolin): campos obrigatórios preenchidos
+    √ Enantato de Testosterona (Testosterone Enanthate): campos obrigatórios preenchidos (1 ms)
+    √ Propionato de Testosterona (Testosterone Propionate): campos obrigatórios preenchidos
+    √ Undecinato de Testosterona (Testosterone Undecanoate): campos obrigatórios preenchidos
+    √ Oxandrolona (Anavar): campos obrigatórios preenchidos (1 ms)
+    √ Trembolona (Parabolan, Trenbolone acetate/enanthate): campos obrigatórios preenchidos
+    √ Liraglutida: campos obrigatórios preenchidos
+    √ Tirzepatida: campos obrigatórios preenchidos (1 ms)
+    √ Semaglutida: dosagem completa (min/média/máx/via/local/duração)
+    √ BPC-157: dosagem completa (min/média/máx/via/local/duração) (1 ms)
+    √ TB-500: dosagem completa (min/média/máx/via/local/duração)
+    √ Ipamorelin: dosagem completa (min/média/máx/via/local/duração) (1 ms)
+    √ GHK-Cu: dosagem completa (min/média/máx/via/local/duração)
+    √ Turinabol (Clorodeidrometiltestosterona, DHCMT): dosagem completa (min/média/máx/via/local/duração)
+    √ Primabolan (Methenolone, Hetabolan): dosagem completa (min/média/máx/via/local/duração) (1 ms)
+    √ Masteron (Drostanolone, Drol): dosagem completa (min/média/máx/via/local/duração)
+    √ Decanoato de Nandrolona (Deca-Durabolin): dosagem completa (min/média/máx/via/local/duração) (1 ms)
+    √ Enantato de Testosterona (Testosterone Enanthate): dosagem completa (min/média/máx/via/local/duração)
+    √ Propionato de Testosterona (Testosterone Propionate): dosagem completa (min/média/máx/via/local/duração) (1 ms)
+    √ Undecinato de Testosterona (Testosterone Undecanoate): dosagem completa (min/média/máx/via/local/duração)
+    √ Oxandrolona (Anavar): dosagem completa (min/média/máx/via/local/duração)
+    √ Trembolona (Parabolan, Trenbolone acetate/enanthate): dosagem completa (min/média/máx/via/local/duração)
+    √ Liraglutida: dosagem completa (min/média/máx/via/local/duração)
+    √ Tirzepatida: dosagem completa (min/média/máx/via/local/duração) (1 ms)
+    √ Semaglutida: tem contraindicações, monitoramento e status WADA
+    √ BPC-157: tem contraindicações, monitoramento e status WADA (1 ms)
+    √ TB-500: tem contraindicações, monitoramento e status WADA
+    √ Ipamorelin: tem contraindicações, monitoramento e status WADA
+    √ GHK-Cu: tem contraindicações, monitoramento e status WADA (1 ms)
+    √ Turinabol (Clorodeidrometiltestosterona, DHCMT): tem contraindicações, monitoramento e status WADA
+    √ Primabolan (Methenolone, Hetabolan): tem contraindicações, monitoramento e status WADA (2 ms)
+    √ Masteron (Drostanolone, Drol): tem contraindicações, monitoramento e status WADA
+    √ Decanoato de Nandrolona (Deca-Durabolin): tem contraindicações, monitoramento e status WADA
+    √ Enantato de Testosterona (Testosterone Enanthate): tem contraindicações, monitoramento e status WADA
+    √ Propionato de Testosterona (Testosterone Propionate): tem contraindicações, monitoramento e status WADA (1 ms)
+    √ Undecinato de Testosterona (Testosterone Undecanoate): tem contraindicações, monitoramento e status WADA
+    √ Oxandrolona (Anavar): tem contraindicações, monitoramento e status WADA (1 ms)
+    √ Trembolona (Parabolan, Trenbolone acetate/enanthate): tem contraindicações, monitoramento e status WADA
+    √ Liraglutida: tem contraindicações, monitoramento e status WADA (1 ms)
+    √ Tirzepatida: tem contraindicações, monitoramento e status WADA
+    √ Semaglutida: referências com metadados e modelo de evidência (1 ms)
+    √ BPC-157: referências com metadados e modelo de evidência (1 ms)
+    √ TB-500: referências com metadados e modelo de evidência
+    √ Ipamorelin: referências com metadados e modelo de evidência (1 ms)
+    √ GHK-Cu: referências com metadados e modelo de evidência
+    √ Turinabol (Clorodeidrometiltestosterona, DHCMT): referências com metadados e modelo de evidência
+    √ Primabolan (Methenolone, Hetabolan): referências com metadados e modelo de evidência
+    √ Masteron (Drostanolone, Drol): referências com metadados e modelo de evidência
+    √ Decanoato de Nandrolona (Deca-Durabolin): referências com metadados e modelo de evidência
+    √ Enantato de Testosterona (Testosterone Enanthate): referências com metadados e modelo de evidência (1 ms)
+    √ Propionato de Testosterona (Testosterone Propionate): referências com metadados e modelo de evidência
+    √ Undecinato de Testosterona (Testosterone Undecanoate): referências com metadados e modelo de evidência (1 ms)
+    √ Oxandrolona (Anavar): referências com metadados e modelo de evidência (4 ms)
+    √ Trembolona (Parabolan, Trenbolone acetate/enanthate): referências com metadados e modelo de evidência
+    √ Liraglutida: referências com metadados e modelo de evidência
+    √ Tirzepatida: referências com metadados e modelo de evidência
+    √ Semaglutida: registro de revisão preenchido
+    √ BPC-157: registro de revisão preenchido
+    √ TB-500: registro de revisão preenchido
+    √ Ipamorelin: registro de revisão preenchido
+    √ GHK-Cu: registro de revisão preenchido
+    √ Turinabol (Clorodeidrometiltestosterona, DHCMT): registro de revisão preenchido
+    √ Primabolan (Methenolone, Hetabolan): registro de revisão preenchido
+    √ Masteron (Drostanolone, Drol): registro de revisão preenchido (1 ms)
+    √ Decanoato de Nandrolona (Deca-Durabolin): registro de revisão preenchido
+    √ Enantato de Testosterona (Testosterone Enanthate): registro de revisão preenchido
+    √ Propionato de Testosterona (Testosterone Propionate): registro de revisão preenchido
+    √ Undecinato de Testosterona (Testosterone Undecanoate): registro de revisão preenchido
+    √ Oxandrolona (Anavar): registro de revisão preenchido (1 ms)
+    √ Trembolona (Parabolan, Trenbolone acetate/enanthate): registro de revisão preenchido
+    √ Liraglutida: registro de revisão preenchido
+    √ Tirzepatida: registro de revisão preenchido
+    × peptídeos "apenas pesquisa" não podem estar marcados como aprovados (2 ms)
+
+  ● Integridade editorial do catálogo › peptídeos "apenas pesquisa" não podem estar marcados como aprovados
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected value: "approved"
+    Received array: ["research", "preliminary"]
+
+      51 |     for (const p of peptides) {
+      52 |       if (p.resumo.toLowerCase().includes('não') && p.resumo.toLowerCase().includes('aprovad')) {
+    > 53 |         expect(['research', 'preliminary']).toContain(p.nivelRegulatorio);
+         |                                             ^
+      54 |       }
+      55 |     }
+      56 |   });
+
+      at Object.toContain (__tests__/peptides.schema.test.ts:53:45)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 81 passed, 82 total
+Snapshots:   0 total
+Time:        1.227 s, estimated 2 s
+Ran all test suites matching /__tests__\\peptides.schema.test.ts/i.
