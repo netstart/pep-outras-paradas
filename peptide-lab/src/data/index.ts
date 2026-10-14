@@ -25,6 +25,7 @@ export { primabolan } from './esteroides/primabolan';
 export { oxandrolona } from './esteroides/oxandrolona';
 export { decanoato_de_nandrolona } from './esteroides/decanoato_de_nandrolona';
 export { trembolona } from './esteroides/trembolona';
+export { proprionato_de_testosterona } from './esteroides/proprionato_de_testosterona';
 
 // Export do catálogo completo
 export { peptideCatalog, peptideMap, initPeptideMap } from './peptides/catalogo-completo';
