@@ -1,4 +1,4 @@
-# ==============================================================
+﻿# ==============================================================
 # run.ps1 — Atalho para compilar e executar o Peptide Lab
 # em produção no emulador Android.
 #

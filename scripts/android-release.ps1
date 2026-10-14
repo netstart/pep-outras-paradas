@@ -1,4 +1,4 @@
-# ==============================================================
+﻿# ==============================================================
 # android-release.ps1 — Compila o Peptide Lab em modo RELEASE
 # (produção) e instala/executa no emulador Android.
 #

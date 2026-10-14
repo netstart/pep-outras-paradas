@@ -24,6 +24,7 @@ export * from './alphabol';
 export * from './boldenona';
 export * from './halotestin';
 export * from './induject-250';
+export { decaDurateston as induject250 } from './induject-250';
 export * from './mastoral';
 export * from './nandrobolin';
 export * from './nandro-rapid';

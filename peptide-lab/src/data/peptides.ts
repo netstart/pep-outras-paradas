@@ -29,7 +29,7 @@ import {
   mastoral,
   nandrobolin,
   nandroRapid,
-} from './index';
+} from './peptides/index';
 
 export const peptides: Peptide[] = [
   aod9604,
