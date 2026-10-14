@@ -29,7 +29,7 @@ export const albiglutida: Peptide = {
     doseMinima: '30 mg/semana',
     doseMedia: '30-50 mg/semana',
     doseMaxima: '50 mg/semana',
-    frequência: '1x/semana',
+    frequencia: '1x/semana',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '4 semanas',
@@ -104,7 +104,7 @@ export const albiglutida: Peptide = {
       fonte: 'Journal of the American Medical Association', 
       ano: 2014, 
       pmid: '24635343', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -112,7 +112,7 @@ export const albiglutida: Peptide = {
       fonte: 'Journal of Clinical Endocrinology & Metabolism', 
       ano: 2015, 
       pmid: '25561157', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

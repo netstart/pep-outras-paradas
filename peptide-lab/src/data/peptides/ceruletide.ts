@@ -44,7 +44,7 @@ export const ceruletide: Peptide = {
     doseMinima: '5 ng/kg',
     doseMedia: '10 ng/kg',
     doseMaxima: '20 ng/kg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Teste único',

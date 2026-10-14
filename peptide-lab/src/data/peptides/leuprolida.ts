@@ -74,7 +74,7 @@ export const leuprolida: Peptide = {
     doseMinima: '1 mg/dia',
     doseMedia: '1-2 mg/dia',
     doseMaxima: '5 mg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Subcutânea', 'Intramuscular'],
     locaisAplicacao: ['Abdome', 'Glúteo'],
     duracaoMinima: '4 semanas',

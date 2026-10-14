@@ -29,7 +29,7 @@ export const nesiritida: Peptide = {
     doseMinima: '2 mcg/kg bolus',
     doseMedia: '2 mcg/kg bolus + 0,01 mcg/kg/min',
     doseMaxima: '2 mcg/kg bolus + 0,02 mcg/kg/min',
-    frequência: 'Bolus + infusão contínua',
+    frequencia: 'Bolus + infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: '3 horas',

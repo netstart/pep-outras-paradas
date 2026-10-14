@@ -44,7 +44,7 @@ export const sincalide: Peptide = {
     doseMinima: '0,05 mcg/kg',
     doseMedia: '0,1 mcg/kg',
     doseMaxima: '0,2 mcg/kg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Teste único',

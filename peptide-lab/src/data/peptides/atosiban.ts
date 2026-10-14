@@ -29,7 +29,7 @@ export const atosiban: Peptide = {
     doseMinima: '6,75 mg bolus inicial',
     doseMedia: '6,75 mg bolus + 18 mg/hora infusão',
     doseMaxima: '6,75 mg bolus + 36 mg/hora infusão (máximo 48h)',
-    frequência: 'Bolus + infusão contínua',
+    frequencia: 'Bolus + infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Não recomendado <48h',

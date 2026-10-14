@@ -59,7 +59,7 @@ export const oxitocina: Peptide = {
     doseMinima: '2,5-5 UI',
     doseMedia: '5-10 UI',
     doseMaxima: '20-40 UI',
-    frequência: 'Conforme indicação',
+    frequencia: 'Conforme indicação',
     vias: ['Intramuscular', 'Intravenosa', 'Intramuscular (para lactação)'],
     locaisAplicacao: ['Glúteo', 'Veia periférica', 'Região glútea (lactação)'],
     duracaoMinima: 'Efeito imediato',

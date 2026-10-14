@@ -11,7 +11,7 @@ export const pasireotide: Peptide = {
   indicacoesEstudadas: [
     {
       condicao: 'Síndrome de Cushing',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -19,14 +19,14 @@ export const pasireotide: Peptide = {
           fonte: 'The Lancet', 
           ano: 2011, 
           pmid: '21449733', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
       ]
     },
     {
       condicao: 'Acromegalia',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -34,7 +34,7 @@ export const pasireotide: Peptide = {
           fonte: 'New England Journal of Medicine', 
           ano: 2014, 
           pmid: '24635343', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
       ]
@@ -44,7 +44,7 @@ export const pasireotide: Peptide = {
     doseMinima: '0,3 mg/dia',
     doseMedia: '0,6 mg/dia',
     doseMaxima: '0,9 mg/dia',
-    frequência: '2x/dia',
+    frequencia: '2x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '4 semanas',
@@ -55,7 +55,7 @@ export const pasireotide: Peptide = {
         titulo: 'Pasireotide prescribing information', 
         fonte: 'FDA Label - Signifor', 
         ano: 2020, 
-        nível: 'A', 
+        nivel: 'A', 
         modelo: 'human' 
       }
     ]
@@ -71,7 +71,7 @@ export const pasireotide: Peptide = {
           fonte: 'Drug Safety', 
           ano: 2005, 
           pmid: '15792507', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -106,7 +106,7 @@ export const pasireotide: Peptide = {
       fonte: 'The Lancet', 
       ano: 2011, 
       pmid: '21449733', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -114,7 +114,7 @@ export const pasireotide: Peptide = {
       fonte: 'New England Journal of Medicine', 
       ano: 2014, 
       pmid: '24635343', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     }
   ],

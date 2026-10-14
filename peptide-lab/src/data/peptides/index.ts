@@ -28,5 +28,3 @@ export { decaDurateston as induject250 } from './induject-250';
 export * from './mastoral';
 export * from './nandrobolin';
 export * from './nandro-rapid';
-
-export * from './five-amino-1mq';

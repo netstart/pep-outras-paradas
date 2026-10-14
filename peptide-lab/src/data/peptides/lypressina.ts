@@ -44,7 +44,7 @@ export const lypressina: Peptide = {
     doseMinima: '0,005 UI/min',
     doseMedia: '0,005-0,05 UI/min',
     doseMaxima: '0,1 UI/min',
-    frequência: 'Infusão contínua',
+    frequencia: 'Infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica central'],
     duracaoMinima: 'Conforme indicação',

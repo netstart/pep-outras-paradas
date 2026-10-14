@@ -29,7 +29,7 @@ export const degarelix: Peptide = {
     doseMinima: '240 mg dose inicial',
     doseMedia: '240 mg dose inicial + 80 mg/mês',
     doseMaxima: '240 mg dose inicial + 80 mg/mês',
-    frequência: 'Dose inicial única + injeção mensal',
+    frequencia: 'Dose inicial única + injeção mensal',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '1 mês',

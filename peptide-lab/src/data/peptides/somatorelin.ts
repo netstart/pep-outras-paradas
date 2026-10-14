@@ -44,7 +44,7 @@ export const somatorelin: Peptide = {
     doseMinima: '0,5 mcg/kg',
     doseMedia: '1,0 mcg/kg',
     doseMaxima: '2,0 mcg/kg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Teste único',

@@ -29,7 +29,7 @@ export const pramlintida: Peptide = {
     doseMinima: '15 mcg antes das refeições',
     doseMedia: '30-60 mcg antes das refeições',
     doseMaxima: '60 mcg antes das refeições',
-    frequência: '3x/dia (antes das principais refeições)',
+    frequencia: '3x/dia (antes das principais refeições)',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome', 'Coxa'],
     duracaoMinima: '4 semanas',
@@ -40,7 +40,7 @@ export const pramlintida: Peptide = {
         titulo: 'Pramlintide prescribing information', 
         fonte: 'FDA Label - Symlin', 
         ano: 2020, 
-        nível: 'A', 
+        nivel: 'A', 
         modelo: 'human' 
       }
     ]
@@ -56,7 +56,7 @@ export const pramlintida: Peptide = {
           fonte: 'Drug Safety', 
           ano: 2005, 
           pmid: '15792507', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -71,7 +71,7 @@ export const pramlintida: Peptide = {
           fonte: 'American Journal of Gastroenterology', 
           ano: 2007, 
           pmid: '17255904', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -103,7 +103,7 @@ export const pramlintida: Peptide = {
       fonte: 'Diabetes Care', 
       ano: 2004, 
       pmid: '15001688', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -111,7 +111,7 @@ export const pramlintida: Peptide = {
       fonte: 'Journal of Clinical Endocrinology & Metabolism', 
       ano: 2006, 
       pmid: '16322095', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

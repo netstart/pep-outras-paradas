@@ -44,7 +44,7 @@ export const eptifibatida: Peptide = {
     doseMinima: '180 mcg/kg bolus + 2,0 mcg/kg/min',
     doseMedia: '180 mcg/kg bolus + 2,0 mcg/kg/min',
     doseMaxima: '180 mcg/kg bolus + 2,0 mcg/kg/min',
-    frequência: 'Bolus + infusão contínua',
+    frequencia: 'Bolus + infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Durante o procedimento',

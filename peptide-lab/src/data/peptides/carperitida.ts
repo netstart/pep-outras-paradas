@@ -37,14 +37,14 @@ export const carperitida: Peptide = {
           nivel: 'A', 
           modelo: 'human' 
         }
-      }
-    ]
+      ]
+    }
   ],
   dosagem: {
     doseMinima: '20 mcg/kg bolus + 0,15 mcg/kg/min',
     doseMedia: '20 mcg/kg bolus + 0,15 mcg/kg/min',
     doseMaxima: '20 mcg/kg bolus + 0,15 mcg/kg/min',
-    frequência: 'Bolus + infusão contínua',
+    frequencia: 'Bolus + infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Durante o procedimento',

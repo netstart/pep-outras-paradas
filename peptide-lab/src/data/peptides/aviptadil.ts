@@ -5,13 +5,13 @@ export const aviptadil: Peptide = {
   nome: 'Aviptadil',
   sinonimos: ['Aviptadil', 'Histidina-vasoativa intestinal peptídeo'],
   categoria: 'Pulmonar / Vasodilatador',
-  nivelRegulatorio: 'experimental',
+  nivelRegulatorio: 'preliminary',
   resumo: 'Forma sintética do peptídeo vasointestinal VIP (vasoactive intestinal peptide) com modificação para aumentar a estabilidade, utilizado no tratamento da síndrome de desconforto respiratório agudo (SDRA) associado à COVID-19.',
   mecanismo: 'Liga-se aos receptores VPAC1 e VPAC2 causando vasodilatação pulmonar, redução da inflamação e proteção das células epiteliais pulmonares.',
   indicacoesEstudadas: [
     {
       condicao: 'Síndrome de desconforto respiratório agudo (SDRA) pós-COVID-19',
-      nível: 'B',
+      nivel: 'B',
       modelo: 'human',
       referencias: [
         { 
@@ -19,7 +19,7 @@ export const aviptadil: Peptide = {
           fonte: 'Journal of Infection', 
           ano: 2021, 
           pmid: '33753755', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -29,7 +29,7 @@ export const aviptadil: Peptide = {
     doseMinima: '50 µg/dia',
     doseMedia: '50 µg/dia',
     doseMaxima: '50 µg/dia',
-    frequência: '2x/dia',
+    frequencia: '2x/dia',
     vias: ['Inhalatória'],
     locaisAplicacao: ['Trato respiratório'],
     duracaoMinima: '5 dias',
@@ -40,7 +40,7 @@ export const aviptadil: Peptide = {
         titulo: 'Aviptadil prescribing information', 
         fonte: 'FDA Label (Emergency Use Authorization)', 
         ano: 2021, 
-        nível: 'B', 
+        nivel: 'B', 
         modelo: 'human' 
       }
     ]
@@ -56,7 +56,7 @@ export const aviptadil: Peptide = {
           fonte: 'Drug Safety', 
           ano: 2021, 
           pmid: '33753755', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -91,7 +91,7 @@ export const aviptadil: Peptide = {
       fonte: 'Journal of Infection', 
       ano: 2021, 
       pmid: '33753755', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     },
     { 
@@ -99,7 +99,7 @@ export const aviptadil: Peptide = {
       fonte: 'Respiratory Medicine', 
       ano: 2022, 
       pmid: '35071940', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

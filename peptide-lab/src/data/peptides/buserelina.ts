@@ -59,7 +59,7 @@ export const buserelina: Peptide = {
     doseMinima: '0,1 mg/dia',
     doseMedia: '0,2 mg/dia',
     doseMaxima: '0,4 mg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Subcutânea', 'Intramuscular'],
     locaisAplicacao: ['Abdome', 'Glúteo'],
     duracaoMinima: '4 semanas',

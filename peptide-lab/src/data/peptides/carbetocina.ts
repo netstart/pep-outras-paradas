@@ -29,7 +29,7 @@ export const carbetocina: Peptide = {
     doseMinima: '100 mcg',
     doseMedia: '100 mcg',
     doseMaxima: '100 mcg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intramuscular', 'Intravenosa'],
     locaisAplicacao: ['Glúteo', 'Veia periférica'],
     duracaoMinima: 'Efeito imediato',

@@ -44,7 +44,7 @@ export const nafarelin: Peptide = {
     doseMinima: '200 mcg/dia',
     doseMedia: '400 mcg/dia',
     doseMaxima: '800 mcg/dia',
-    frequência: '2x/dia',
+    frequencia: '2x/dia',
     vias: ['Nasal'],
     locaisAplicacao: ['Mucosa nasal'],
     duracaoMinima: '4 semanas',

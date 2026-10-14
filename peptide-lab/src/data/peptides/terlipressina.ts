@@ -44,7 +44,7 @@ export const terlipressina: Peptide = {
     doseMinima: '1 mg/4h',
     doseMedia: '2 mg/4h',
     doseMaxima: '4 mg/4h',
-    frequência: 'A cada 4-6 horas',
+    frequencia: 'A cada 4-6 horas',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: '3 dias',

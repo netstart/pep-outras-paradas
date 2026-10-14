@@ -11,7 +11,7 @@ export const pentagastrina: Peptide = {
   indicacoesEstudadas: [
     {
       condicao: 'Teste de função da secreção ácida gástrica',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -19,7 +19,7 @@ export const pentagastrina: Peptide = {
           fonte: 'Journal of Clinical Endocrinology & Metabolism', 
           ano: 1969, 
           pmid: '5783178', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
       ]
@@ -29,7 +29,7 @@ export const pentagastrina: Peptide = {
     doseMinima: '6 mcg',
     doseMedia: '6 mcg',
     doseMaxima: '25 mcg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Subcutânea', 'Intramuscular'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: 'Teste único',
@@ -40,7 +40,7 @@ export const pentagastrina: Peptide = {
         titulo: 'Pentagastrin prescribing information', 
         fonte: 'FDA Label', 
         ano: 2010, 
-        nível: 'B', 
+        nivel: 'B', 
         modelo: 'human' 
       }
     ]
@@ -56,7 +56,7 @@ export const pentagastrina: Peptide = {
           fonte: 'Gastroenterology', 
           ano: 1985, 
           pmid: '3892711', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -87,7 +87,7 @@ export const pentagastrina: Peptide = {
       fonte: 'Journal of Clinical Endocrinology & Metabolism', 
       ano: 1969, 
       pmid: '5783178', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -95,7 +95,7 @@ export const pentagastrina: Peptide = {
       fonte: 'American Journal of Gastroenterology', 
       ano: 1980, 
       pmid: '7405796', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

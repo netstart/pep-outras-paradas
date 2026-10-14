@@ -29,7 +29,7 @@ export const ganirelix: Peptide = {
     doseMinima: '250 mcg/dia',
     doseMedia: '250 mcg/dia',
     doseMaxima: '250 mcg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '3-5 dias',

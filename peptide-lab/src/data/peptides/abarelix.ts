@@ -29,7 +29,7 @@ export const abarelix: Peptide = {
     doseMinima: '200 mg',
     doseMedia: '200 mg',
     doseMaxima: '200 mg',
-    frequência: '1x/mês',
+    frequencia: '1x/mês',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Glúteo'],
     duracaoMinima: '1 mês',

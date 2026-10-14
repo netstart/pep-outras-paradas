@@ -29,7 +29,7 @@ export const edotreotide: Peptide = {
     doseMinima: '185 MBq',
     doseMedia: '185 MBq',
     doseMaxima: '370 MBq',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Imagem única',

@@ -29,7 +29,7 @@ export const pentetreotide: Peptide = {
     doseMinima: '3,7 GBq',
     doseMedia: '3,7 GBq',
     doseMaxima: '7,4 GBq',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Tratamento único',

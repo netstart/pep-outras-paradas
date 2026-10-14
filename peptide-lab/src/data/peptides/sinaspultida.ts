@@ -11,7 +11,7 @@ export const sinaspultida: Peptide = {
   indicacoesEstudadas: [
     {
       condicao: 'Diarreia da viagem',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -19,14 +19,14 @@ export const sinaspultida: Peptide = {
           fonte: 'Clinical Infectious Diseases', 
           ano: 2004, 
           pmid: '15001688', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
       ]
     },
     {
       condicao: 'Síndrome do intestino irritável com diarreia (IBS-D)',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -34,17 +34,17 @@ export const sinaspultida: Peptide = {
           fonte: 'American Journal of Gastroenterology', 
           ano: 2010, 
           pmid: '12563104', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
-      }
-    ]
+      ]
+    }
   ],
   dosagem: {
     doseMinima: '250 mg/dia',
     doseMedia: '500 mg/dia',
     doseMaxima: '500 mg/dia',
-    frequência: '3x/dia',
+    frequencia: '3x/dia',
     vias: ['Oral'],
     locaisAplicacao: ['Trato gastrointestinal'],
     duracaoMinima: '3 dias',
@@ -55,7 +55,7 @@ export const sinaspultida: Peptide = {
         titulo: 'Sinaspultide prescribing information', 
         fonte: 'FDA Label', 
         ano: 2010, 
-        nível: 'A', 
+        nivel: 'A', 
         modelo: 'human' 
       }
     ]
@@ -71,7 +71,7 @@ export const sinaspultida: Peptide = {
           fonte: 'Journal of Clinical Gastroenterology', 
           ano: 2005, 
           pmid: '15705975', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -102,7 +102,7 @@ export const sinaspultida: Peptide = {
       fonte: 'Clinical Infectious Diseases', 
       ano: 2004, 
       pmid: '15001688', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -110,7 +110,7 @@ export const sinaspultida: Peptide = {
       fonte: 'Journal of Gastroenterology', 
       ano: 2012, 
       pmid: '22166323', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

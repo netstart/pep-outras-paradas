@@ -44,7 +44,7 @@ export const bivalirudinina: Peptide = {
     doseMinima: '0,1 mg/kg bolus + 0,25 mg/kg/h',
     doseMedia: '0,1 mg/kg bolus + 0,25 mg/kg/h',
     doseMaxima: '0,1 mg/kg bolus + 0,25 mg/kg/h',
-    frequência: 'Bolus + infusão contínua',
+    frequencia: 'Bolus + infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Durante o procedimento',

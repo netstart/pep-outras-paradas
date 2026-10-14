@@ -29,7 +29,7 @@ export const cetrorelix: Peptide = {
     doseMinima: '0,25 mg/dia',
     doseMedia: '0,25 mg/dia',
     doseMaxima: '0,25 mg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '3-5 dias',

@@ -29,7 +29,7 @@ export const saralasina: Peptide = {
     doseMinima: '0,5 mcg/kg/min',
     doseMedia: '1,0 mcg/kg/min',
     doseMaxima: '2,0 mcg/kg/min',
-    frequência: 'Infusão contínua',
+    frequencia: 'Infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: '30 minutos',
@@ -59,7 +59,7 @@ export const saralasina: Peptide = {
           nivel: 'B', 
           modelo: 'human' 
         }
-      }
+      ]
     }
   ],
   interacoes: [],

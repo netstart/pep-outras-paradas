@@ -44,7 +44,7 @@ export const gonadorelina: Peptide = {
     doseMinima: '100 mcg',
     doseMedia: '500 mcg',
     doseMaxima: '1000 mcg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa', 'Subcutânea'],
     locaisAplicacao: ['Veia periférica', 'Abdome'],
     duracaoMinima: 'Teste único',

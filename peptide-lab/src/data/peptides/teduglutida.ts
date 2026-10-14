@@ -11,7 +11,7 @@ export const teduglutida: Peptide = {
   indicacoesEstudadas: [
     {
       condicao: 'Síndrome do intestino curto',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -19,7 +19,7 @@ export const teduglutida: Peptide = {
           fonte: 'Gastroenterology', 
           ano: 2012, 
           pmid: '22166323', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
       ]
@@ -29,7 +29,7 @@ export const teduglutida: Peptide = {
     doseMinima: '0,05 mg/kg/dia',
     doseMedia: '0,1 mg/kg/dia',
     doseMaxima: '0,15 mg/kg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '4 semanas',
@@ -40,7 +40,7 @@ export const teduglutida: Peptide = {
         titulo: 'Teduglutide prescribing information', 
         fonte: 'FDA Label - Gattex', 
         ano: 2020, 
-        nível: 'A', 
+        nivel: 'A', 
         modelo: 'human' 
       }
     ]
@@ -56,7 +56,7 @@ export const teduglutida: Peptide = {
           fonte: 'Drug Safety', 
           ano: 2005, 
           pmid: '15792507', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -71,7 +71,7 @@ export const teduglutida: Peptide = {
           fonte: 'Journal of Clinical Oncology', 
           ano: 2013, 
           pmid: '25561157', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -104,7 +104,7 @@ export const teduglutida: Peptide = {
       fonte: 'Gastroenterology', 
       ano: 2012, 
       pmid: '22166323', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -112,7 +112,7 @@ export const teduglutida: Peptide = {
       fonte: 'Clinical Gastroenterology and Hepatology', 
       ano: 2015, 
       pmid: '25561157', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

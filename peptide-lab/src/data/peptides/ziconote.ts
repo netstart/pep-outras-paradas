@@ -29,7 +29,7 @@ export const ziconote: Peptide = {
     doseMinima: '0,4 mcg/dia',
     doseMedia: '1,2 mcg/dia',
     doseMaxima: '2,4 mcg/dia',
-    frequência: 'Infusão contínua intratecal',
+    frequencia: 'Infusão contínua intratecal',
     vias: ['Intratecal'],
     locaisAplicacao: ['Espinha lombar'],
     duracaoMinima: 'Não definido',

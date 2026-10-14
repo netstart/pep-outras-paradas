@@ -94,6 +94,16 @@ export const peptideCatalog: { id: string; nome: string; arquivo: string }[] = [
   { id: 'peginesatida', nome: 'Peginesatida', arquivo: 'peginesatida' },
   { id: 'pentagastrina', nome: 'Pentagastrina', arquivo: 'pentagastrina' },
   { id: 'aviptadil', nome: 'Aviptadil', arquivo: 'aviptadil' },
+
+  // Esteróides anabolizantes (arquivos individuais em ../esteroides/)
+  { id: 'turinabol', nome: 'Turinabol', arquivo: '../esteroides/turinabol' },
+  { id: 'enantato_de_testosterona', nome: 'Enantato de Testosterona', arquivo: '../esteroides/enantato_de_testosterona' },
+  { id: 'proprionato_de_testosterona', nome: 'Propionato de Testosterona', arquivo: '../esteroides/proprionato_de_testosterona' },
+  { id: 'oxandrolona', nome: 'Oxandrolona', arquivo: '../esteroides/oxandrolona' },
+  { id: 'decanoato_de_nandrolona', nome: 'Decanoato de Nandrolona', arquivo: '../esteroides/decanoato_de_nandrolona' },
+  { id: 'trembolona', nome: 'Trembolona', arquivo: '../esteroides/trembolona' },
+  { id: 'masteron', nome: 'Masteron', arquivo: '../esteroides/masteron' },
+  { id: 'primabolan', nome: 'Primabolan', arquivo: '../esteroides/primabolan' },
 ];
 
 // Mapa para referência rápida por ID

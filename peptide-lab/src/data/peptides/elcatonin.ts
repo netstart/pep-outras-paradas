@@ -29,7 +29,7 @@ export const elcatonin: Peptide = {
     doseMinima: '10-20 UI/dia',
     doseMedia: '20-30 UI/dia',
     doseMaxima: '40 UI/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Injetável'],
     locaisAplicacao: ['Subcutânea/IM'],
     duracaoMinima: '4 semanas',

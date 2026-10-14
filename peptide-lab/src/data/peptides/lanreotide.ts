@@ -44,7 +44,7 @@ export const lanreotide: Peptide = {
     doseMinima: '60 mg/28 dias',
     doseMedia: '90 mg/28 dias',
     doseMaxima: '120 mg/28 dias',
-    frequência: '1x/28 dias',
+    frequencia: '1x/28 dias',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Glúteo'],
     duracaoMinima: '3 meses',

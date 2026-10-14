@@ -29,7 +29,7 @@ export const lixisenatida: Peptide = {
     doseMinima: '10 mcg/dia',
     doseMedia: '20 mcg/dia',
     doseMaxima: '20 mcg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '4 semanas',

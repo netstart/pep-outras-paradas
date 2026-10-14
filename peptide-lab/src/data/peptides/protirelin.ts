@@ -44,7 +44,7 @@ export const protirelin: Peptide = {
     doseMinima: '200 mcg',
     doseMedia: '500 mcg',
     doseMaxima: '1000 mcg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Teste único',

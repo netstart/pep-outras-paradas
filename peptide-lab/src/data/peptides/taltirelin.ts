@@ -44,7 +44,7 @@ export const taltirelin: Peptide = {
     doseMinima: '200 mcg/dia',
     doseMedia: '400 mcg/dia',
     doseMaxima: '600 mcg/dia',
-    frequência: '3x/dia',
+    frequencia: '3x/dia',
     vias: ['Oral'],
     locaisAplicacao: ['Trato gastrointestinal'],
     duracaoMinima: '4 semanas',

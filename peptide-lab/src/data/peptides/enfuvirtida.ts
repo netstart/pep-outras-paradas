@@ -29,7 +29,7 @@ export const enfuvirtida: Peptide = {
     doseMinima: '90 mg',
     doseMedia: '90 mg',
     doseMaxima: '90 mg',
-    frequência: '2x/dia',
+    frequencia: '2x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome', 'Coxa', 'Braço'],
     duracaoMinima: '4 semanas',

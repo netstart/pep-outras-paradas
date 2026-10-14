@@ -59,7 +59,7 @@ export const somatostatina: Peptide = {
     doseMinima: '250 mcg/h',
     doseMedia: '250-500 mcg/h',
     doseMaxima: '1000 mcg/h',
-    frequência: 'Infusão contínua',
+    frequencia: 'Infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica central'],
     duracaoMinima: '24 horas',

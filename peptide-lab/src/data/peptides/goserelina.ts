@@ -59,7 +59,7 @@ export const goserelina: Peptide = {
     doseMinima: '3,6 mg/28 dias',
     doseMedia: '3,6 mg/28 dias',
     doseMaxima: '10,8 mg/84 dias',
-    frequência: 'Depósito subcutâneo a cada 28 ou 84 dias',
+    frequencia: 'Depósito subcutâneo a cada 28 ou 84 dias',
     vias: ['Subcutânea (depósito)'],
     locaisAplicacao: ['Abdome anterior'],
     duracaoMinima: '28 dias',

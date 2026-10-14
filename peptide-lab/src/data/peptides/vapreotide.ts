@@ -29,7 +29,7 @@ export const vapreotide: Peptide = {
     doseMinima: '370 MBq',
     doseMedia: '370 MBq',
     doseMaxima: '740 MBq',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Imagem única',

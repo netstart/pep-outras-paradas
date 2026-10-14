@@ -59,7 +59,7 @@ export const histrelina: Peptide = {
     doseMinima: '1 mg/dia',
     doseMedia: '1-2 mg/dia',
     doseMaxima: '5 mg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: '4 semanas',

@@ -29,7 +29,7 @@ export const glatiramer: Peptide = {
     doseMinima: '20 mg/dia',
     doseMedia: '20 mg/dia',
     doseMaxima: '40 mg 3x/semana',
-    frequência: '1x/dia ou 3x/semana',
+    frequencia: '1x/dia ou 3x/semana',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome', 'Coxa', 'Braço'],
     duracaoMinima: '6 meses',

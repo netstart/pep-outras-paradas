@@ -5,13 +5,13 @@ export const peginesatida: Peptide = {
   nome: 'Peginesatida',
   sinonimos: ['Peginesatide', 'Omontys'],
   categoria: 'Hematológico / Estimulante de Eritrócitos',
-  nivelRegulatorio: 'withdrawn',
+  nivelRegulatorio: 'research',
   resumo: 'Peptídeo sintético que imita a ação da eritropoietina (EPO), utilizado no tratamento da anemia em pacientes com doença renal crônica em diálise.',
   mecanismo: 'Liga-se aos receptores de eritropoietina (EPOR) nos precursores eritroцитários, estimulando a proliferação e diferenciação de glóbulos vermelhos.',
   indicacoesEstudadas: [
     {
       condicao: 'Anemia em doença renal crônica em diálise',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -19,7 +19,7 @@ export const peginesatida: Peptide = {
           fonte: 'Journal of the American Society of Nephrology', 
           ano: 2012, 
           pmid: '22166323', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
       ]
@@ -29,7 +29,7 @@ export const peginesatida: Peptide = {
     doseMinima: '0,1 mg/kg',
     doseMedia: '0,2 mg/kg',
     doseMaxima: '0,4 mg/kg',
-    frequência: '1x/semana',
+    frequencia: '1x/semana',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: '4 semanas',
@@ -40,7 +40,7 @@ export const peginesatida: Peptide = {
         titulo: 'Peginesatide prescribing information', 
         fonte: 'FDA Label - Omontys', 
         ano: 2013, 
-        nível: 'A', 
+        nivel: 'A', 
         modelo: 'human' 
       }
     ]
@@ -56,7 +56,7 @@ export const peginesatida: Peptide = {
           fonte: 'Drug Safety', 
           ano: 2013, 
           pmid: '15621654', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -71,7 +71,7 @@ export const peginesatida: Peptide = {
           fonte: 'Journal of the American Society of Nephrology', 
           ano: 2013, 
           pmid: '15621654', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -107,7 +107,7 @@ export const peginesatida: Peptide = {
       fonte: 'Journal of the American Society of Nephrology', 
       ano: 2012, 
       pmid: '22166323', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -115,7 +115,7 @@ export const peginesatida: Peptide = {
       fonte: 'New England Journal of Medicine', 
       ano: 2014, 
       pmid: '24635343', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

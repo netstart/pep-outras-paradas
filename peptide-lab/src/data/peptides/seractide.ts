@@ -29,7 +29,7 @@ export const seractide: Peptide = {
     doseMinima: '0,5 mg/kg',
     doseMedia: '2,0 mg/kg',
     doseMaxima: '5,0 mg/kg',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Tópica', 'Subcutânea'],
     locaisAplicacao: ['Leito da ferida'],
     duracaoMinima: '7 dias',

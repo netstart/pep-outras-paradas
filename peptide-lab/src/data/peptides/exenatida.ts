@@ -29,7 +29,7 @@ export const exenatida: Peptide = {
     doseMinima: '5 mcg/dia',
     doseMedia: '10 mcg/dia',
     doseMaxima: '10 mcg/dia',
-    frequência: '2x/dia',
+    frequencia: '2x/dia',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome', 'Coxa'],
     duracaoMinima: '4 semanas',
@@ -74,7 +74,7 @@ export const exenatida: Peptide = {
           nivel: 'B', 
           modelo: 'human' 
         }
-      }
+      ]
     }
   ],
   interacoes: [],

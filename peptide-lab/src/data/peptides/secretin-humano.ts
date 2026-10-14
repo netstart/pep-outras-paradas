@@ -44,7 +44,7 @@ export const secretinHumano: Peptide = {
     doseMinima: '0,25 mcg/kg',
     doseMedia: '0,5 mcg/kg',
     doseMaxima: '1,0 mcg/kg',
-    frequência: ' dose única',
+    frequencia: ' dose única',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Teste único',

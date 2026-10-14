@@ -11,7 +11,7 @@ export const linasclotide: Peptide = {
   indicacoesEstudadas: [
     {
       condicao: 'Constipação crônica idiopática',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -19,14 +19,14 @@ export const linasclotide: Peptide = {
           fonte: 'The Lancet', 
           ano: 2012, 
           pmid: '22166323', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
       ]
     },
     {
       condicao: 'Síndrome do intestino irritável com constipação (IBS-C)',
-      nível: 'A',
+      nivel: 'A',
       modelo: 'human',
       referencias: [
         { 
@@ -34,17 +34,17 @@ export const linasclotide: Peptide = {
           fonte: 'Gastroenterology', 
           ano: 2014, 
           pmid: '24635343', 
-          nível: 'A', 
+          nivel: 'A', 
           modelo: 'human' 
         }
-      }
-    ]
+      ]
+    }
   ],
   dosagem: {
     doseMinima: '145 mcg/dia',
     doseMedia: '290 mcg/dia',
     doseMaxima: '290 mcg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Oral'],
     locaisAplicacao: ['Trato gastrointestinal'],
     duracaoMinima: '2 semanas',
@@ -55,7 +55,7 @@ export const linasclotide: Peptide = {
         titulo: 'Linaclotide prescribing information', 
         fonte: 'FDA Label - Linzess', 
         ano: 2020, 
-        nível: 'A', 
+        nivel: 'A', 
         modelo: 'human' 
       }
     ]
@@ -71,7 +71,7 @@ export const linasclotide: Peptide = {
           fonte: 'Journal of Clinical Gastroenterology', 
           ano: 2005, 
           pmid: '15705975', 
-          nível: 'B', 
+          nivel: 'B', 
           modelo: 'human' 
         }
       ]
@@ -103,7 +103,7 @@ export const linasclotide: Peptide = {
       fonte: 'The Lancet', 
       ano: 2012, 
       pmid: '22166323', 
-      nível: 'A', 
+      nivel: 'A', 
       modelo: 'human' 
     },
     { 
@@ -111,7 +111,7 @@ export const linasclotide: Peptide = {
       fonte: 'Journal of Gastroenterology', 
       ano: 2015, 
       pmid: '25561157', 
-      nível: 'B', 
+      nivel: 'B', 
       modelo: 'human' 
     }
   ],

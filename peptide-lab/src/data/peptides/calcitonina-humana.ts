@@ -44,7 +44,7 @@ export const calcitoninaHumana: Peptide = {
     doseMinima: '50-100 UI/dia',
     doseMedia: '100-200 UI/dia',
     doseMaxima: '400 UI/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Injetável', 'Intranasal'],
     locaisAplicacao: ['Subcutânea/IM', 'Mucosa nasal'],
     duracaoMinima: '4 semanas',

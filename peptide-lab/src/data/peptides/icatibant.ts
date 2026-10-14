@@ -29,7 +29,7 @@ export const icatibant: Peptide = {
     doseMinima: '10 mg',
     doseMedia: '30 mg',
     doseMaxima: '30 mg',
-    frequência: 'Conforme necessidade (máximo 3 doses em 24h)',
+    frequencia: 'Conforme necessidade (máximo 3 doses em 24h)',
     vias: ['Subcutânea'],
     locaisAplicacao: ['Abdome'],
     duracaoMinima: 'Não definido',

@@ -29,7 +29,7 @@ export const thymopentin: Peptide = {
     doseMinima: '1,0 mg/dia',
     doseMedia: '3,0 mg/dia',
     doseMaxima: '5,0 mg/dia',
-    frequência: '1x/dia',
+    frequencia: '1x/dia',
     vias: ['Intramuscular', 'Subcutânea'],
     locaisAplicacao: ['Glúteo', 'Abdome'],
     duracaoMinima: '10 dias',

@@ -29,7 +29,7 @@ export const phenypressina: Peptide = {
     doseMinima: '0,01 UI/kg',
     doseMedia: '0,01-0,05 UI/kg',
     doseMaxima: '0,1 UI/kg',
-    frequência: 'Infusão contínua',
+    frequencia: 'Infusão contínua',
     vias: ['Intravenosa'],
     locaisAplicacao: ['Veia periférica'],
     duracaoMinima: 'Conforme indicação',
