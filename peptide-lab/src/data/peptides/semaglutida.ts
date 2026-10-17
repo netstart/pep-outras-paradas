@@ -30,10 +30,10 @@ export const semaglutida: Peptide = {
       modelo: 'human',
       referencias: [
         { 
-          titulo: 'Semaglutide for obesity: STEP 1 trial', 
-          fonte: 'NEJM', 
+          titulo: 'Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1 trial)', 
+          fonte: 'N Engl J Med', 
           ano: 2021, 
-          pmid: '33753755', 
+          pmid: '33567185', 
           nivel: 'A', 
           modelo: 'human' 
         }
@@ -103,18 +103,26 @@ export const semaglutida: Peptide = {
   ],
   referencias: [
     { 
-      titulo: 'Semaglutide in type 2 diabetes: SUSTAIN-6 trial', 
-      fonte: 'NEJM', 
-      ano: 2016, 
-      pmid: '27040065', 
+      titulo: 'Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1)', 
+      fonte: 'N Engl J Med', 
+      ano: 2021, 
+      pmid: '33567185', 
       nivel: 'A', 
       modelo: 'human' 
     },
     { 
-      titulo: 'Semaglutide for obesity: STEP 1 trial', 
-      fonte: 'NEJM', 
-      ano: 2021, 
-      pmid: '33753755', 
+      titulo: 'Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT trial)', 
+      fonte: 'N Engl J Med', 
+      ano: 2023, 
+      pmid: '37952131', 
+      nivel: 'A', 
+      modelo: 'human' 
+    },
+    { 
+      titulo: 'Semaglutide in type 2 diabetes: SUSTAIN-6 trial', 
+      fonte: 'N Engl J Med', 
+      ano: 2016, 
+      pmid: '27040065', 
       nivel: 'A', 
       modelo: 'human' 
     }

@@ -87,6 +87,14 @@ export const liraglutida: Peptide = {
   ],
   referencias: [
     { 
+      titulo: 'Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes (LEADER trial)', 
+      fonte: 'N Engl J Med', 
+      ano: 2016, 
+      pmid: '27295427', 
+      nivel: 'A', 
+      modelo: 'human' 
+    },
+    { 
       titulo: 'Liraglutide effect in type 2 diabetes: LEAD-2 trial', 
       fonte: 'Diabetes Care', 
       ano: 2009, 

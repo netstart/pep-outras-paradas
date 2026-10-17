@@ -80,10 +80,26 @@ export const tesamorelina: Peptide = {
   ],
   referencias: [
     { 
-      titulo: 'Tesamorelin HIV trial', 
-      fonte: 'J Infect Dis', 
+      titulo: 'Tesamorelin for HIV-associated lipodystrophy', 
+      fonte: 'Drugs', 
       ano: 2011, 
-      pmid: '21666259', 
+      pmid: '21668043', 
+      nivel: 'A', 
+      modelo: 'human' 
+    },
+    { 
+      titulo: 'Reduction in visceral adiposity is associated with an improved metabolic profile in HIV-infected patients receiving tesamorelin', 
+      fonte: 'Clin Infect Dis', 
+      ano: 2012, 
+      pmid: '22495074', 
+      nivel: 'A', 
+      modelo: 'human' 
+    },
+    { 
+      titulo: 'Predictors of Treatment Response to Tesamorelin in HIV-Infected Patients with Excess Abdominal Fat', 
+      fonte: 'PLoS One', 
+      ano: 2015, 
+      pmid: '26457580', 
       nivel: 'A', 
       modelo: 'human' 
     }

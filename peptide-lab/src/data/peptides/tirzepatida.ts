@@ -113,9 +113,9 @@ export const tirzepatida: Peptide = {
     },
     { 
       titulo: 'Tirzepatide for obesity: SURMOUNT-1 trial', 
-      fonte: 'NEJM', 
+      fonte: 'N Engl J Med', 
       ano: 2022, 
-      pmid: '35131555', 
+      pmid: '35658024', 
       nivel: 'A', 
       modelo: 'human' 
     }
