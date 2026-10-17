@@ -23,7 +23,8 @@ export default function HomeScreen() {
   const params = useLocalSearchParams<{ categoria?: string }>();
   const [query, setQuery] = useState('');
   const [categoria, setCategoria] = useState<string | undefined>(params.categoria);
-  const categorias = useMemo(() => Array.from(new Set(peptides.map((p) => p.categoria))), []);
+  const validPeptides = useMemo(() => peptides.filter((p): p is NonNullable<typeof p> => p != null && p.categoria != null), [peptides]);
+  const categorias = useMemo(() => Array.from(new Set(validPeptides.map((p) => p.categoria))), [validPeptides]);
   const results = useMemo(() => searchPeptides(query, categoria), [query, categoria]);
 
   return (
@@ -46,7 +47,7 @@ export default function HomeScreen() {
 
       <Text style={styles.sectionTitle}>Categorias</Text>
       <View style={styles.grid}>
-        {Array.from(new Set(peptides.map((p) => p.categoria))).map((c) => (
+        {categorias.map((c) => (
           <Link key={c} href={{ pathname: '/catalogo', params: { categoria: c } }} asChild>
             <Pressable style={styles.chip} accessibilityRole="link">
               <Text style={styles.chipText}>{c}</Text>
@@ -56,7 +57,7 @@ export default function HomeScreen() {
       </View>
 
       <Text style={styles.sectionTitle}>Destaques</Text>
-      {peptides.slice(0, 3).map((p) => (
+      {validPeptides.slice(0, 3).map((p) => (
         <Link key={p.id} href={{ pathname: '/peptide/[id]', params: { id: p.id } }} asChild>
           <Pressable style={styles.peptideRow} accessibilityRole="link" accessibilityLabel={`Ficha de ${p.nome}`}>
             <View style={{ flex: 1 }}>

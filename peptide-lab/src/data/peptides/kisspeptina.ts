@@ -1,6 +1,6 @@
 import { Peptide } from '../types';
 
-export const kisspeptini: Peptide = {
+export const kisspeptina: Peptide = {
   id: 'kisspeptini',
   nome: 'Kisspeptina',
   sinonimos: ['Kisspeptin', 'Kisspeptina-54', 'Kisspeptina-10', 'KP-54', 'KP-10'],
