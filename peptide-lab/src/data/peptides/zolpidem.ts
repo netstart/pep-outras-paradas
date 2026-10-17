@@ -1,0 +1,95 @@
+import { Peptide } from '../types';
+
+export const zolpidem: Peptide = {
+  id: 'zolpidem',
+  nome: 'Zolpidem',
+  sinonimos: ['Zolpidem tartrato', 'Stilnox', 'Ambien'],
+  categoria: 'Hipnótico / Sono',
+  nivelRegulatorio: 'approved',
+  resumo: 'Hipnótico não-benzodiazepínico da classe das imidazopiridinas, aprovado para tratamento de curto prazo da insônia (dificuldade de iniciar o sono).',
+  mecanismo: 'Liga-se preferencialmente ao subtipo ω1 do complexo receptores GABA_A, potencializando a ação inibitória do GABA no sistema nervoso central, induzindo sono.',
+  indicacoesEstudadas: [
+    {
+      condicao: 'Insônia de curto prazo (dificuldade de início do sono)',
+      nivel: 'A',
+      modelo: 'human',
+      referencias: [],
+    },
+  ],
+  dosagem: {
+    doseMinima: '5 mg',
+    doseMedia: '10 mg',
+    doseMaxima: '10 mg',
+    frequencia: '1x/dia, imediatamente antes de dormir',
+    vias: ['Oral'],
+    locaisAplicacao: ['Via oral'],
+    duracaoMinima: 'Uso sob demanda',
+    duracaoMaxima: 'Até 4 semanas (uso curto)',
+    notas: 'Tomar apenas quando puder dormir 7–8 horas completas. Evitar álcool.',
+    referencias: [],
+  },
+  contraindicacoes: [
+    {
+      condicao: 'Alergia conhecida a zolpidem ou componentes da fórmula',
+      gravidade: 'alta',
+      mecanismo: 'Hipersensibilidade.',
+      referencias: [],
+    },
+    {
+      condicao: 'Insuficiência hepática grave',
+      gravidade: 'alta',
+      mecanismo: 'Metabolismo hepático comprometido; risco de acumulação.',
+      referencias: [],
+    },
+    {
+      condicao: 'Síndrome de apneia do sono não tratada',
+      gravidade: 'moderada',
+      mecanismo: 'Depressão respiratória pode agravar apneia.',
+      referencias: [],
+    },
+  ],
+  interacoes: [
+    {
+      substancia: 'Álcool',
+      tipo: 'contraindicada',
+      mecanismo: 'Depressão aditiva do SNC e risco de comportamento complexo durante o sono.',
+      referencias: [],
+    },
+    {
+      substancia: 'Outros depressores do SNC (benzodiazepínicos, opioides)',
+      tipo: 'cautela',
+      mecanismo: 'Sedação aditiva e depressão respiratória.',
+      referencias: [],
+    },
+    {
+      substancia: 'Inibidores do CYP3A4 (ex: cetoconazol)',
+      tipo: 'cautela',
+      mecanismo: 'Pode aumentar as concentrações de zolpidem.',
+      referencias: [],
+    },
+  ],
+  efeitosAdversos: [
+    'Sonolência diurna',
+    'Tontura',
+    'Dor de cabeça',
+    'Diarreia',
+    'Sonambulismo ou outros comportamentos complexos durante o sono (comer, dirigir, telefonar sem memória depois)',
+    'Amnésia anterógrada',
+  ],
+  statusWada: 'Não proibido',
+  monitoramento: [
+    'Qualidade e duração do sono',
+    'Sonolência diurna residual',
+    'Eventos de sono (sonambulismo, etc.)',
+    'Uso concomitante de álcool ou outros depressores',
+  ],
+  sinaisAlerta: [
+    'Comportamentos complexos durante o sono sem memória posterior',
+    'Reação alérgica grave (anafilaxia, angioedema)',
+    'Depressão ou ideação suicida',
+  ],
+  referencias: [],
+  revisadoEm: '2026-10 (piloto)',
+  revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
+  midias: [],
+};

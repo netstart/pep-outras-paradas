@@ -1,0 +1,93 @@
+import { Peptide } from '../types';
+
+export const fenilproprionato_de_nandrolona: Peptide = {
+  id: 'fenilproprionato_de_nandrolona',
+  nome: 'Fenilproprionato de Nandrolona',
+  sinonimos: ['Nandrolone Phenylpropionate', 'NPP', 'Durabolin'],
+  categoria: 'Esteroide Anabolizante',
+  nivelRegulatorio: 'offlabel',
+  resumo: 'Éster de nandrolona de ação curta (meia-vida de aproximadamente 4,5 dias), usado para ganho de massa magra e alívio articular, com menor retenção hídrica que o decanoato.',
+  mecanismo: 'Liga-se aos receptores de androgênios, promovendo síntese proteica, retenção de nitrogênio, estimulação da colágeno e aumento da densidade mineral óssea.',
+  indicacoesEstudadas: [
+    {
+      condicao: 'Anemia de falange óssea / osteoporose',
+      nivel: 'C',
+      modelo: 'human',
+      referencias: [],
+    },
+    {
+      condicao: 'Cachexia e perda de massa magra',
+      nivel: 'C',
+      modelo: 'human',
+      referencias: [],
+    },
+  ],
+  dosagem: {
+    doseMinima: '50 mg/2 dias',
+    doseMedia: '100 mg/dia ou 200 mg/semana',
+    doseMaxima: '400 mg/semana',
+    frequencia: '1x/dia ou 1x/dia sim outro não',
+    vias: ['Intramuscular'],
+    locaisAplicacao: ['Glúteo', 'Deltóide', 'Coxa'],
+    duracaoMinima: '6 semanas',
+    duracaoMaxima: '12 semanas',
+    notas: 'Ação mais curta que o decanoato de nandrolona, exigindo aplicações mais frequentes.',
+    referencias: [],
+  },
+  contraindicacoes: [
+    {
+      condicao: 'Câncer de próstata ou de mama',
+      gravidade: 'alta',
+      mecanismo: 'Estimulação de tecidos hormono-sensíveis.',
+      referencias: [],
+    },
+    {
+      condicao: 'Gravidez ou amamentação',
+      gravidade: 'alta',
+      mecanismo: 'Virilização fetal e potenciais efeitos teratogênicos.',
+      referencias: [],
+    },
+  ],
+  interacoes: [
+    {
+      substancia: 'Anticoagulantes',
+      tipo: 'cautela',
+      mecanismo: 'Potencial aumento do efeito anticoagulante.',
+      referencias: [],
+    },
+    {
+      substancia: 'Insulina ou hipoglicemiantes orais',
+      tipo: 'cautela',
+      mecanismo: 'Pode alterar a sensibilidade à insulina.',
+      referencias: [],
+    },
+  ],
+  efeitosAdversos: [
+    'Supressão do eixo gonadal (LH/FSH/testosterona endógena)',
+    'Retenção de líquidos (leve a moderada)',
+    'Ginecomastia (progestágena)',
+    'Acne',
+    'Queda de cabelo (predisposição genética)',
+    'Alterações no perfil lipídico',
+    'Disfunção erétil pós-ciclo (supressão prolactínica)',
+  ],
+  statusWada: 'Proibido',
+  monitoramento: [
+    'Prolactina sérica',
+    'Testosterona total e livre',
+    'LH / FSH',
+    'Perfil lipídico',
+    'Função hepática',
+    'Hematócrito',
+  ],
+  sinaisAlerta: [
+    'Ginecomastia (nódulo mamário sensível)',
+    'Dor ou inchaço nas mamas',
+    'Disfunção erétil persistente após o ciclo',
+    'Icterícia',
+  ],
+  referencias: [],
+  revisadoEm: '2026-10 (piloto)',
+  revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
+  midias: [],
+};

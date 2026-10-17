@@ -1,0 +1,86 @@
+import { Peptide } from '../types';
+
+export const stanozolol: Peptide = {
+  id: 'stanozolol',
+  nome: 'Stanozolol',
+  sinonimos: ['Stanozolol', 'Winstrol', 'Winny'],
+  categoria: 'Esteroide Anabolizante',
+  nivelRegulatorio: 'offlabel',
+  resumo: 'Esteroide anabolizante sintético derivado da dihidrotestosterona (DHT), disponível em via oral e injetável, valorizado por efeitos anabólicos com baixa atividade estrogênica.',
+  mecanismo: 'Liga-se aos receptores de androgênios, promovendo síntese proteica e lipólise, com baixa conversão para estrogênio e efeitos androgênicos moderados.',
+  indicacoesEstudadas: [
+    {
+      condicao: 'Angioedema hereditário',
+      nivel: 'B',
+      modelo: 'human',
+      referencias: [],
+    },
+    {
+      condicao: 'Perda de massa magra (cachexia)',
+      nivel: 'C',
+      modelo: 'human',
+      referencias: [],
+    },
+  ],
+  dosagem: {
+    doseMinima: '10 mg/dia',
+    doseMedia: '25–50 mg/dia',
+    doseMaxima: '100 mg/dia',
+    frequencia: '1x/dia',
+    vias: ['Oral', 'Intramuscular'],
+    locaisAplicacao: ['Via oral', 'Glúteo', 'Deltóide'],
+    duracaoMinima: '4 semanas',
+    duracaoMaxima: '8 semanas',
+    notas: 'Uso prolongado ou doses elevadas aumentam risco de toxicidade hepática e efeitos nos lipídios.',
+    referencias: [],
+  },
+  contraindicacoes: [
+    {
+      condicao: 'Doença hepática ativa',
+      gravidade: 'alta',
+      mecanismo: 'Metabolismo hepático de primeiro passo (forma oral) e risco de hepatotoxicidade.',
+      referencias: [],
+    },
+    {
+      condicao: 'Gravidez ou amamentação',
+      gravidade: 'alta',
+      mecanismo: 'Potencial virilização do feto.',
+      referencias: [],
+    },
+  ],
+  interacoes: [
+    {
+      substancia: 'Anticoagulantes',
+      tipo: 'cautela',
+      mecanismo: 'Potencial aumento do efeito anticoagulante.',
+      referencias: [],
+    },
+  ],
+  efeitosAdversos: [
+    'Hepatotoxicidade (especialmente forma oral)',
+    'Alterações no colesterol (redução HDL, aumento LDL)',
+    'Dores nas articulações (ressecamento sinovial)',
+    'Acne',
+    'Queda de cabelo (predisposição genética)',
+    'Supressão do eixo gonadal',
+    'Alterações de humor',
+  ],
+  statusWada: 'Proibido',
+  monitoramento: [
+    'Função hepática (AST, ALT, GGT, bilirrubina)',
+    'Perfil lipídico',
+    'Testosterona sérica',
+    'LH / FSH',
+    'Hemograma',
+  ],
+  sinaisAlerta: [
+    'Icterícia ou urina escura',
+    'Dor abdominal superior direita',
+    'Sangramento inexplicável',
+    'Dor no peito ou falta de ar',
+  ],
+  referencias: [],
+  revisadoEm: '2026-10 (piloto)',
+  revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
+  midias: [],
+};

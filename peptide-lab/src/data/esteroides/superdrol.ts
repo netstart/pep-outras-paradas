@@ -1,0 +1,92 @@
+import { Peptide } from '../types';
+
+export const superdrol: Peptide = {
+  id: 'superdrol',
+  nome: 'Superdrol',
+  sinonimos: ['Metasterona', 'Methasterone', 'Super Anadrol'],
+  categoria: 'Esteroide Anabolizante',
+  nivelRegulatorio: 'research',
+  resumo: 'Esteroide anabolizante oral potente, derivado da drostanolona (Masteron), 17-alfa-alquilado, usado para ganho rápido de massa magra e força.',
+  mecanismo: 'Liga-se aos receptores de androgênios, promovendo síntese proteica e retenção de nitrogênio, com alta potência anabólica e atividade estrogênica mínima.',
+  indicacoesEstudadas: [
+    {
+      condicao: 'Não aprovado para uso humano; uso em pesquisa/estética',
+      nivel: 'C',
+      modelo: 'human',
+      referencias: [],
+    },
+  ],
+  dosagem: {
+    doseMinima: '10 mg/dia',
+    doseMedia: '20–30 mg/dia',
+    doseMaxima: '40 mg/dia',
+    frequencia: '1x/dia',
+    vias: ['Oral'],
+    locaisAplicacao: ['Via oral'],
+    duracaoMinima: '2 semanas',
+    duracaoMaxima: '4 semanas',
+    notas: 'Altamente hepatotóxico; ciclos muito curtos recomendados.',
+    referencias: [],
+  },
+  contraindicacoes: [
+    {
+      condicao: 'Doença hepática',
+      gravidade: 'alta',
+      mecanismo: 'Toxicidade hepática significativa por 17-alfa-alquilação.',
+      referencias: [],
+    },
+    {
+      condicao: 'Câncer de próstata ou de mama',
+      gravidade: 'alta',
+      mecanismo: 'Tecidos sensíveis a androgênios.',
+      referencias: [],
+    },
+    {
+      condicao: 'Gravidez ou amamentação',
+      gravidade: 'alta',
+      mecanismo: 'Potencial virilização fetal.',
+      referencias: [],
+    },
+  ],
+  interacoes: [
+    {
+      substancia: 'Anticoagulantes',
+      tipo: 'cautela',
+      mecanismo: 'Potencial aumento do efeito anticoagulante.',
+      referencias: [],
+    },
+    {
+      substancia: 'Outros hepatotóxicos (álcool, orais 17-AA)',
+      tipo: 'contraindicada',
+      mecanismo: 'Efeito aditivo sobre o fígado.',
+      referencias: [],
+    },
+  ],
+  efeitosAdversos: [
+    'Hepatotoxicidade severa',
+    'Supressão rápida e profunda do eixo gonadal',
+    'Alterações severas no colesterol',
+    'Acne',
+    'Queda de cabelo (predisposição genética)',
+    'Insônia / agressão',
+    'Dores nas articulações (ressecamento)',
+  ],
+  statusWada: 'Proibido',
+  monitoramento: [
+    'Função hepática (AST, ALT, GGT, bilirrubina) semanal',
+    'Perfil lipídico',
+    'Testosterona sérica',
+    'LH / FSH',
+    'Pressão arterial',
+  ],
+  sinaisAlerta: [
+    'Icterícia ou urina escura',
+    'Dor abdominal superior direita intensa',
+    'Fadiga extrema com náusea',
+    'Sinais de insuficiência hepática',
+  ],
+  referencias: [],
+  revisadoEm: '2026-10 (piloto)',
+  revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
+  midias: [],
+};

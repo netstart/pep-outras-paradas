@@ -1,0 +1,93 @@
+import { Peptide } from '../types';
+
+export const dianabol: Peptide = {
+  id: 'dianabol',
+  nome: 'Dianabol',
+  sinonimos: ['Metandienona', 'Methandrostenolone', 'Dbol'],
+  categoria: 'Esteroide Anabolizante',
+  nivelRegulatorio: 'offlabel',
+  resumo: 'Esteroide anabolizante oral derivado da testosterona, de ação rápida, amplamente usado para ganho rápido de massa muscular e força.',
+  mecanismo: 'Liga-se aos receptores de androgênios, promovendo síntese proteica, retenção de nitrogênio e glicogenólise, com aromatização moderada para estrogênio.',
+  indicacoesEstudadas: [
+    {
+      condicao: 'Hipogonadismo (uso histórico, atualmente descontinuado)',
+      nivel: 'C',
+      modelo: 'human',
+      referencias: [],
+    },
+  ],
+  dosagem: {
+    doseMinima: '15 mg/dia',
+    doseMedia: '25–40 mg/dia',
+    doseMaxima: '80 mg/dia',
+    frequencia: '2–3x/dia (dividido)',
+    vias: ['Oral'],
+    locaisAplicacao: ['Via oral'],
+    duracaoMinima: '4 semanas',
+    duracaoMaxima: '6 semanas',
+    notas: 'Hepatotóxico (17-alfa-alquilado); ciclos curtos recomendados.',
+    referencias: [],
+  },
+  contraindicacoes: [
+    {
+      condicao: 'Doença hepática ativa',
+      gravidade: 'alta',
+      mecanismo: 'Toxicidade hepática por 17-alfa-alquilação.',
+      referencias: [],
+    },
+    {
+      condicao: 'Câncer de próstata ou de mama',
+      gravidade: 'alta',
+      mecanismo: 'Tecidos sensíveis a androgênios.',
+      referencias: [],
+    },
+    {
+      condicao: 'Gravidez ou amamentação',
+      gravidade: 'alta',
+      mecanismo: 'Potencial virilização fetal.',
+      referencias: [],
+    },
+  ],
+  interacoes: [
+    {
+      substancia: 'Anticoagulantes',
+      tipo: 'cautela',
+      mecanismo: 'Potencial aumento do efeito anticoagulante.',
+      referencias: [],
+    },
+    {
+      substancia: 'Insulina ou hipoglicemiantes orais',
+      tipo: 'cautela',
+      mecanismo: 'Pode alterar a sensibilidade à insulina.',
+      referencias: [],
+    },
+  ],
+  efeitosAdversos: [
+    'Hepatotoxicidade (17-alfa-alquilado)',
+    'Retenção de líquidos e ginecomastia',
+    'Supressão rápida do eixo gonadal',
+    'Alterações no colesterol (redução HDL)',
+    'Hipertensão',
+    'Acne',
+    'Queda de cabelo (predisposição genética)',
+  ],
+  statusWada: 'Proibido',
+  monitoramento: [
+    'Função hepática (AST, ALT, bilirrubina)',
+    'Perfil lipídico',
+    'Testosterona sérica',
+    'LH / FSH',
+    'Pressão arterial',
+    'Estradiol',
+  ],
+  sinaisAlerta: [
+    'Icterícia ou urina escura',
+    'Dor abdominal superior direita',
+    'Dor de cabeça intensa com náusea',
+    'Sinais de trombose',
+  ],
+  referencias: [],
+  revisadoEm: '2026-10 (piloto)',
+  revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
+  midias: [],
+};

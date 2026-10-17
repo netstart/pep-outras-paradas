@@ -1,0 +1,87 @@
+import { Peptide } from '../types';
+
+export const undecilato_de_boldenona: Peptide = {
+  id: 'undecilato_de_boldenona',
+  nome: 'Undecilato de Boldenona',
+  sinonimos: ['Boldenone Undecylenate', 'Equipose', 'EQ', 'Boldenone'],
+  categoria: 'Esteroide Anabolizante',
+  nivelRegulatorio: 'offlabel',
+  resumo: 'Éster de boldenona de ação longa (meia-vida de aproximadamente 14 dias), derivado da testosterona, usado para ganho gradual de massa magra e aumento de apetite.',
+  mecanismo: 'Liga-se aos receptores de androgênios, promovendo síntese proteica, retenção de nitrogênio e estimulação da eritropoese (aumento de glóbulos vermelhos), com baixa aromatização.',
+  indicacoesEstudadas: [
+    {
+      condicao: 'Anemia (uso veterinário histórico)',
+      nivel: 'C',
+      modelo: 'animal',
+      referencias: [],
+    },
+  ],
+  dosagem: {
+    doseMinima: '200 mg/semana',
+    doseMedia: '400–600 mg/semana',
+    doseMaxima: '800 mg/semana',
+    frequencia: '1x/semana ou 2x/semana',
+    vias: ['Intramuscular'],
+    locaisAplicacao: ['Glúteo', 'Deltóide', 'Coxa'],
+    duracaoMinima: '8 semanas',
+    duracaoMaxima: '16 semanas',
+    notas: 'Ciclos longos devido à meia-vida longa; aumenta significativamente o hematócrito.',
+    referencias: [],
+  },
+  contraindicacoes: [
+    {
+      condicao: 'Policitemia ou eritrocitose',
+      gravidade: 'alta',
+      mecanismo: 'Estimulação da eritropoese pode elevar excessivamente o hematócrito.',
+      referencias: [],
+    },
+    {
+      condicao: 'Câncer de próstata ou de mama',
+      gravidade: 'alta',
+      mecanismo: 'Tecidos sensíveis a androgênios.',
+      referencias: [],
+    },
+    {
+      condicao: 'Gravidez ou amamentação',
+      gravidade: 'alta',
+      mecanismo: 'Potencial virilização fetal.',
+      referencias: [],
+    },
+  ],
+  interacoes: [
+    {
+      substancia: 'Anticoagulantes',
+      tipo: 'cautela',
+      mecanismo: 'Potencial aumento do efeito anticoagulante.',
+      referencias: [],
+    },
+  ],
+  efeitosAdversos: [
+    'Aumento do hematócrito / policitemia',
+    'Acne',
+    'Queda de cabelo (predisposição genética)',
+    'Supressão do eixo gonadal',
+    'Alterações no colesterol',
+    'Aumento do apetite',
+    'Voz grave (em mulheres, risco de virilização)',
+  ],
+  statusWada: 'Proibido',
+  monitoramento: [
+    'Hematócrito / hemoglobina',
+    'Perfil lipídico',
+    'Testosterona sérica',
+    'LH / FSH',
+    'Função hepática',
+    'Pressão arterial',
+  ],
+  sinaisAlerta: [
+    'Tontura, dor de cabeça, rubor facial (policitemia)',
+    'Dor no peito ou falta de ar',
+    'Icterícia',
+    'Sinais de trombose',
+  ],
+  referencias: [],
+  revisadoEm: '2026-10 (piloto)',
+  revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
+  midias: [],
+};

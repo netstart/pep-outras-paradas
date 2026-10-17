@@ -1,0 +1,88 @@
+import { Peptide } from '../types';
+
+export const acetato_de_testosterona: Peptide = {
+  id: 'acetato_de_testosterona',
+  nome: 'Acetato de Testosterona',
+  sinonimos: ['Testosterone Acetate', 'Acetate de Testostérone'],
+  categoria: 'Esteroide Anabolizante',
+  nivelRegulatorio: 'offlabel',
+  resumo: 'Éster de testosterona de ação muito curta (meia-vida de aproximadamente 24–48 horas), usado para reposição ou aumento rápido dos níveis de testosterona sérica.',
+  mecanismo: 'Liga-se aos receptores de androgênios nos tecidos alvo, promovendo síntese proteica, retenção de nitrogênio, lipólise e efeitos androgênicos.',
+  indicacoesEstudadas: [
+    {
+      condicao: 'Hipogonadismo masculino (reposição de testosterona)',
+      nivel: 'B',
+      modelo: 'human',
+      referencias: [],
+    },
+  ],
+  dosagem: {
+    doseMinima: '50 mg/dia',
+    doseMedia: '100 mg/dia',
+    doseMaxima: '200 mg/dia',
+    frequencia: '1x/dia (devido à meia-vida curta)',
+    vias: ['Intramuscular'],
+    locaisAplicacao: ['Glúteo', 'Deltóide', 'Coxa'],
+    duracaoMinima: '4 semanas',
+    duracaoMaxima: '12 semanas',
+    notas: 'Exige aplicações frequentes devido à meia-vida muito curta.',
+    referencias: [],
+  },
+  contraindicacoes: [
+    {
+      condicao: 'Câncer de próstata ou de mama',
+      gravidade: 'alta',
+      mecanismo: 'Estimulação de tecidos sensíveis a androgênios.',
+      referencias: [],
+    },
+    {
+      condicao: 'Gravidez ou amamentação',
+      gravidade: 'alta',
+      mecanismo: 'Potencial teratogenicidade e virilização fetal.',
+      referencias: [],
+    },
+  ],
+  interacoes: [
+    {
+      substancia: 'Anticoagulantes',
+      tipo: 'cautela',
+      mecanismo: 'Potencial aumento do efeito anticoagulante.',
+      referencias: [],
+    },
+    {
+      substancia: 'Insulina ou hipoglicemiantes orais',
+      tipo: 'cautela',
+      mecanismo: 'Pode alterar a sensibilidade à insulina.',
+      referencias: [],
+    },
+  ],
+  efeitosAdversos: [
+    'Acne',
+    'Retenção de líquidos',
+    'Ginecomastia (aromatização para estrogênio)',
+    'Supressão do eixo gonadal (LH/FSH)',
+    'Alterações no perfil lipídico',
+    'Hipertensão',
+    'Agressão / irritabilidade',
+    'Calvície androgenética (predisposição genética)',
+  ],
+  statusWada: 'Proibido',
+  monitoramento: [
+    'Testosterona total e livre',
+    'Hematócrito / hemoglobina (policitemia)',
+    'Função hepática (AST, ALT)',
+    'Perfil lipídico',
+    'PSA (antígeno prostático específico)',
+    'LH / FSH',
+  ],
+  sinaisAlerta: [
+    'Dor ou nódulo prostático',
+    'Icterícia ou urina escura',
+    'Dor de cabeça intensa com alterações visuais',
+    'Trombose venosa profunda (inchaço e dor na panturrilha)',
+  ],
+  referencias: [],
+  revisadoEm: '2026-10 (piloto)',
+  revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
+  midias: [],
+};
