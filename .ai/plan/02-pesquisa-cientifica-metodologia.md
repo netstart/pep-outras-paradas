@@ -25,6 +25,23 @@ Todo texto do app DEVE citar fonte verificável de pelo menos um destes níveis:
 ### REGRA DE OURO
 > Nenhuma afirmação entra no app sem: (1) citação com link/PMID/DOI, (2) nível de evidência atribuído (A/B/C), (3) data da revisão, (4) revisor responsável. Conteúdo de "uso off-label" ou "apenas pesquisa" recebe marcação visual distinta obrigatória.
 
+#### Regras de Referências Científicas
+- **Quantidade Mínima**: É obrigatório ter pelo menos **10 referências científicas** que demonstrem efeitos colaterais, efeitos ruins ou qualquer malefício ao uso para cada peptídeo catalogado.
+- **Verificabilidade**: Todas as referências devem conter o link direto para permitir a leitura e verificação do conteúdo original.
+- **Exibição na Aplicação**: Na interface do usuário, deve ser exibido apenas o link/título da referência (ex: `[Estudo X](url)`), e não a URL completa e aparente.
+
+---
+
+## 2.6. Referências Contra
+
+Esta seção é dedicada a consolidar a evidência científica negativa. Para cada substância, a equipe de curadoria deve obrigatoriamente listar estudos que apontem:
+- **Toxicidade**: Danos a órgãos ou sistemas.
+- **Efeitos Adversos Comuns e Raros**: Reações aversivas documentadas.
+- **Contraindicações Absolutas**: Casos onde o uso é estritamente proibido.
+- **Riscos de Longo Prazo**: Estudos sobre carcinogênese, imunogenicidade ou disfunções endócrinas permanentes.
+
+O objetivo é garantir que o usuário tenha acesso a uma visão equilibrada (benefícios vs. riscos), evitando o viés de confirmação apenas em estudos positivos.
+
 ---
 
 ## 2.2. Pipeline Editorial de Verificação

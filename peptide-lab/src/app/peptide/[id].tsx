@@ -7,6 +7,7 @@ import { colors } from '../../theme';
 import { peptides } from '../../data/peptides';
 import { LevelBadge } from '../../components/Badges';
 import { Section, ReferenceItem, InfoRow } from '../../components/UI';
+import { SynergyContraSection } from '../../components/SynergyContraSection';
 import { useStore } from '../../store';
 
 const gravityColor = { alta: colors.danger, moderada: colors.caution, leve: colors.textSecondary } as const;
@@ -84,17 +85,7 @@ export default function PeptideDetail() {
           </Pressable>
         </Section>
 
-        <Section title={`⚗️ Sinergias e interações (${peptide.interacoes.length})`} defaultOpen={false}>
-          {peptide.interacoes.length === 0 && <Text style={styles.body}>Nenhuma interação catalogada.</Text>}
-          {peptide.interacoes.map((inter, i) => (
-            <View key={i} style={styles.interRow}>
-              <Text style={styles.interTitle}>
-                {inter.tipo === 'sinergia' ? '✅' : inter.tipo === 'cautela' ? '⚠️' : '⛔'} {inter.substancia}
-              </Text>
-              <Text style={styles.body}>{inter.mecanismo}</Text>
-            </View>
-          ))}
-        </Section>
+        <SynergyContraSection peptide={peptide} />
 
         <Section title="📊 Efeitos adversos e monitoramento" defaultOpen={false}>
           <InfoRow label="Efeitos" value={peptide.efeitosAdversos.join('; ')} />

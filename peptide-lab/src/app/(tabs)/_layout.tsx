@@ -20,7 +20,6 @@ export default function TabsLayout() {
     >
       <Tabs.Screen name="index" options={{ title: 'Início', tabBarIcon: ({ color }) => <Icon emoji="🏠" color={color} /> }} />
       <Tabs.Screen name="catalogo" options={{ title: 'Catálogo', tabBarIcon: ({ color }) => <Icon emoji="🧬" color={color} /> }} />
-      <Tabs.Screen name="verificador" options={{ title: 'Verificador', tabBarIcon: ({ color }) => <Icon emoji="⚗️" color={color} /> }} />
       <Tabs.Screen name="aprenda" options={{ title: 'Aprenda', tabBarIcon: ({ color }) => <Icon emoji="🎓" color={color} /> }} />
       <Tabs.Screen name="salvos" options={{ title: 'Salvos', tabBarIcon: ({ color }) => <Icon emoji="🔖" color={color} /> }} />
     </Tabs>

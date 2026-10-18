@@ -41,3 +41,6 @@ yarn-error.*
 /android
 
 .git-peptide-lab-backup/
+peptide-lab/logcat_apps.txt
+peptide-lab/logcat_final.txt
+peptide-lab/logcat_recent.txt
