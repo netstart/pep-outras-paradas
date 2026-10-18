@@ -54,6 +54,7 @@ export interface BaseMedia {
 export interface YouTubeEmbedMedia extends BaseMedia {
   tipo: 'youtube-embed';
   thumbnail?: string;
+  credito?: string;
 }
 
 export interface InstagramMedia extends BaseMedia {

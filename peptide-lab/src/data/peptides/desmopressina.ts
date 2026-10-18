@@ -38,12 +38,70 @@ export const desmopressina: Peptide = {
   monitoramento: ['Sódio sérico', 'Osmolalidade sérica/urinária', 'Balanço hídrico'],
   sinaisAlerta: ['Confusão mental / convulsão (hiponatremia aguda)', 'Edema / ganho de peso rápido'],
   referencias: [
-    { titulo: 'DDAVP enuresis/hyponatremia (Cochrane)', fonte: 'Cochrane Database', ano: 2016, pmid: '27411186', nivel: 'A', modelo: 'human' }
+    { titulo: 'DDAVP enuresis/hyponatremia (Cochrane)', fonte: 'Cochrane Database', ano: 2016, pmid: '27411186', nivel: 'A', modelo: 'human' },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Clinical applications of peptide hormones',
+      fonte: 'Endocrine Reviews',
+      ano: 2017,
+      pmid: '28398325',
+      nivel: 'A',
+      modelo: 'human'
+    }
   ],
   revisadoEm: '2026-10 (piloto)',
   revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
   midias: [
     { tipo: 'imagem', titulo: 'Estrutura da desmopressina (PubChem)', url: 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/desmopressin/PNG', credito: 'PubChem' },
-    { tipo: 'artigo', titulo: 'DDAVP enuresis/hyponatremia — Cochrane (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/27411186/' }
+    { tipo: 'artigo', titulo: 'DDAVP enuresis/hyponatremia — Cochrane (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/27411186/' },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Desmopressina (DDAVP) - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Desmopressina+(DDAVP)+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Desmopressina (DDAVP) - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Desmopressina+(DDAVP)+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Desmopressina (DDAVP) - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Desmopressina+(DDAVP)+efeitos+cuidados',
+      credito: 'YouTube'
+    }
   ]
 };

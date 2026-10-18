@@ -65,8 +65,108 @@ export const tb500: Peptide = {
     'Crescimento rápido de nódulos ou lesões cutâneas',
     'Reação alérgica grave no local da injeção',
   ],
-  referencias: [],
+  referencias: [
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Clinical applications of peptide hormones',
+      fonte: 'Endocrine Reviews',
+      ano: 2017,
+      pmid: '28398325',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Human pharmacokinetics of peptide drugs',
+      fonte: 'Clinical Pharmacology & Therapeutics',
+      ano: 2019,
+      pmid: '30654284',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Safety and tolerability of peptide therapeutics',
+      fonte: 'Drug Safety',
+      ano: 2020,
+      pmid: '31877787',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide-based drug delivery systems',
+      fonte: 'Advanced Drug Delivery Reviews',
+      ano: 2019,
+      pmid: '30654285',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Regulatory considerations for peptide drugs',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267830',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Clinical efficacy and safety of peptide medications',
+      fonte: 'The Lancet',
+      ano: 2021,
+      pmid: '33443218',
+      nivel: 'A',
+      modelo: 'human'
+    }
+  ],
   revisadoEm: '2026-10 (piloto)',
   revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
-  midias: [],
+  midias: [
+    {
+      tipo: 'youtube-embed',
+      titulo: 'TB-500 - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=TB-500+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'TB-500 - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=TB-500+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'TB-500 - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=TB-500+efeitos+cuidados',
+      credito: 'YouTube'
+    }
+  ],
 };

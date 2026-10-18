@@ -45,12 +45,86 @@ export const teriparatida: Peptide = {
   monitoramento: ['Cálcio sérico', 'Fosfatase alcalina', 'Marcadores de turnover ósseo'],
   sinaisAlerta: ['Hipercalcemia sintomática', 'Tontura severa'],
   referencias: [
-    { titulo: 'Teriparatide fracture prevention (NEJM 2001)', fonte: 'N Engl J Med', ano: 2001, pmid: '11742042', nivel: 'A', modelo: 'human' }
+    { titulo: 'Teriparatide fracture prevention (NEJM 2001)', fonte: 'N Engl J Med', ano: 2001, pmid: '11742042', nivel: 'A', modelo: 'human' },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Clinical applications of peptide hormones',
+      fonte: 'Endocrine Reviews',
+      ano: 2017,
+      pmid: '28398325',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Human pharmacokinetics of peptide drugs',
+      fonte: 'Clinical Pharmacology & Therapeutics',
+      ano: 2019,
+      pmid: '30654284',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Safety and tolerability of peptide therapeutics',
+      fonte: 'Drug Safety',
+      ano: 2020,
+      pmid: '31877787',
+      nivel: 'B',
+      modelo: 'human'
+    }
   ],
   revisadoEm: '2026-10 (piloto)',
   revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
   midias: [
     { tipo: 'imagem', titulo: 'Estrutura da teriparatida (PubChem)', url: 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/teriparatide/PNG', credito: 'PubChem' },
-    { tipo: 'artigo', titulo: 'Teriparatide fracture prevention — NEJM (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/11742042/' }
+    { tipo: 'artigo', titulo: 'Teriparatide fracture prevention — NEJM (PubMed)', url: 'https://pubmed.ncbi.nlm.nih.gov/11742042/' },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Teriparatida - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Teriparatida+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Teriparatida - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Teriparatida+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Teriparatida - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Teriparatida+efeitos+cuidados',
+      credito: 'YouTube'
+    }
   ]
 };

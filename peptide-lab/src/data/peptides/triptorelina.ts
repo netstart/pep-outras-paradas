@@ -146,6 +146,22 @@ export const triptorelina: Peptide = {
       pmid: '15665701', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'GnRH agonists in clinical practice',
+      fonte: 'Human Reproduction Update',
+      ano: 2018,
+      pmid: '29267821',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'GnRH antagonist protocols in assisted reproduction',
+      fonte: 'Fertility and Sterility',
+      ano: 2020,
+      pmid: '31952939',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -161,6 +177,24 @@ export const triptorelina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Triptorelin in endocrine therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/15665701/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Triptorelina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Triptorelina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Triptorelina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Triptorelina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Triptorelina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Triptorelina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

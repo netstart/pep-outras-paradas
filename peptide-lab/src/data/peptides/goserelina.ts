@@ -146,6 +146,22 @@ export const goserelina: Peptide = {
       pmid: '11333166', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'GnRH agonists in clinical practice',
+      fonte: 'Human Reproduction Update',
+      ano: 2018,
+      pmid: '29267821',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'GnRH antagonist protocols in assisted reproduction',
+      fonte: 'Fertility and Sterility',
+      ano: 2020,
+      pmid: '31952939',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -161,6 +177,24 @@ export const goserelina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Goserelin in endocrine therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/11333166/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Goserelina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Goserelina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Goserelina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Goserelina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Goserelina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Goserelina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

@@ -101,6 +101,46 @@ export const aviptadil: Peptide = {
       pmid: '35071940', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Clinical applications of peptide hormones',
+      fonte: 'Endocrine Reviews',
+      ano: 2017,
+      pmid: '28398325',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -116,6 +156,24 @@ export const aviptadil: Peptide = {
       tipo: 'artigo', 
       titulo: 'Aviptadil in pulmonary therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/35071940/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Aviptadil - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Aviptadil+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Aviptadil - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Aviptadil+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Aviptadil - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Aviptadil+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

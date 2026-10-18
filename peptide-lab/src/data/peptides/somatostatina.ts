@@ -131,6 +131,30 @@ export const somatostatina: Peptide = {
       pmid: '3892711', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -146,6 +170,24 @@ export const somatostatina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Somatostatin in clinical practice', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/3892711/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Somatostatina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Somatostatina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Somatostatina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Somatostatina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Somatostatina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Somatostatina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

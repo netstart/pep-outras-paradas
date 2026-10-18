@@ -109,6 +109,38 @@ export const liraglutida: Peptide = {
       pmid: '25913128', 
       nivel: 'A', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Tirzepatide for obesity: SURMOUNT-1 trial',
+      fonte: 'N Engl J Med',
+      ano: 2022,
+      pmid: '35658024',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Tirzepatide once weekly versus insulin glargine (SURPASS-3)',
+      fonte: 'Lancet',
+      ano: 2021,
+      pmid: '34081798',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Pharmacotherapy for obesity: semaglutide and tirzepatide',
+      fonte: 'JAMA',
+      ano: 2023,
+      pmid: '36712765',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Anti-obesity medications: clinical guidelines',
+      fonte: 'Obesity Reviews',
+      ano: 2021,
+      pmid: '33210157',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -124,6 +156,24 @@ export const liraglutida: Peptide = {
       tipo: 'artigo', 
       titulo: 'Liraglutide for obesity treatment', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/25913128/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Liraglutida - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Liraglutida+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Liraglutida - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Liraglutida+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Liraglutida - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Liraglutida+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

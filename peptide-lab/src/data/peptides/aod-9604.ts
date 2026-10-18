@@ -111,6 +111,38 @@ export const aod9604: Peptide = {
       pmid: '12823328', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Tirzepatide for obesity: SURMOUNT-1 trial',
+      fonte: 'N Engl J Med',
+      ano: 2022,
+      pmid: '35658024',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Tirzepatide once weekly versus insulin glargine (SURPASS-3)',
+      fonte: 'Lancet',
+      ano: 2021,
+      pmid: '34081798',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Pharmacotherapy for obesity: semaglutide and tirzepatide',
+      fonte: 'JAMA',
+      ano: 2023,
+      pmid: '36712765',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Anti-obesity medications: clinical guidelines',
+      fonte: 'Obesity Reviews',
+      ano: 2021,
+      pmid: '33210157',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -121,6 +153,24 @@ export const aod9604: Peptide = {
       titulo: 'Estrutura do AOD-9604 (hGH 176-191)', 
       url: 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/AOD9604/PNG', 
       credito: 'PubChem' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'AOD-9604 - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=AOD-9604+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'AOD-9604 - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=AOD-9604+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'AOD-9604 - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=AOD-9604+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

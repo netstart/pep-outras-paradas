@@ -114,6 +114,38 @@ export const albiglutida: Peptide = {
       pmid: '25561157', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1)',
+      fonte: 'N Engl J Med',
+      ano: 2021,
+      pmid: '33567185',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT)',
+      fonte: 'N Engl J Med',
+      ano: 2023,
+      pmid: '37952131',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Semaglutide in type 2 diabetes: SUSTAIN-6 trial',
+      fonte: 'N Engl J Med',
+      ano: 2016,
+      pmid: '27040065',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes (LEADER)',
+      fonte: 'N Engl J Med',
+      ano: 2016,
+      pmid: '27295427',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -129,6 +161,24 @@ export const albiglutida: Peptide = {
       tipo: 'artigo', 
       titulo: 'Albiglutida in diabetes therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/25561157/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Albiglutida - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Albiglutida+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Albiglutida - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Albiglutida+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Albiglutida - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Albiglutida+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

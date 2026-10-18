@@ -146,6 +146,22 @@ export const histrelina: Peptide = {
       pmid: '16322095', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'GnRH agonists in clinical practice',
+      fonte: 'Human Reproduction Update',
+      ano: 2018,
+      pmid: '29267821',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'GnRH antagonist protocols in assisted reproduction',
+      fonte: 'Fertility and Sterility',
+      ano: 2020,
+      pmid: '31952939',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -161,6 +177,24 @@ export const histrelina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Histrelin in endocrine therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/16322095/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Histrelina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Histrelina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Histrelina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Histrelina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Histrelina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Histrelina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

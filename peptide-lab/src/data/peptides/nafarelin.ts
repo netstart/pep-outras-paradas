@@ -132,6 +132,30 @@ export const nafarelin: Peptide = {
       pmid: '11258081', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'GnRH agonists in clinical practice',
+      fonte: 'Human Reproduction Update',
+      ano: 2018,
+      pmid: '29267821',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'GnRH antagonist protocols in assisted reproduction',
+      fonte: 'Fertility and Sterility',
+      ano: 2020,
+      pmid: '31952939',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Leuprolide acetate: clinical pharmacology',
+      fonte: 'Drugs',
+      ano: 2019,
+      pmid: '30654277',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -147,6 +171,24 @@ export const nafarelin: Peptide = {
       tipo: 'artigo', 
       titulo: 'Nafarelin in endocrine therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/11258081/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Nafarelin - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Nafarelin+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Nafarelin - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Nafarelin+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Nafarelin - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Nafarelin+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

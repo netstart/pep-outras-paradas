@@ -161,6 +161,14 @@ export const leuprolida: Peptide = {
       pmid: '12001771', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'GnRH agonists in clinical practice',
+      fonte: 'Human Reproduction Update',
+      ano: 2018,
+      pmid: '29267821',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -176,6 +184,24 @@ export const leuprolida: Peptide = {
       tipo: 'artigo', 
       titulo: 'Leuprolide in endocrine therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/12001771/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Leuprolida - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Leuprolida+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Leuprolida - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Leuprolida+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Leuprolida - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Leuprolida+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

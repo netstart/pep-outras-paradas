@@ -114,6 +114,38 @@ export const ganirelix: Peptide = {
       pmid: '12651837', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -129,6 +161,24 @@ export const ganirelix: Peptide = {
       tipo: 'artigo', 
       titulo: 'Ganirelix in assisted reproduction', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/12651837/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Ganirelix - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Ganirelix+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Ganirelix - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Ganirelix+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Ganirelix - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Ganirelix+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

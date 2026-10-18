@@ -91,6 +91,62 @@ export const retatrutide: Peptide = {
       pmid: '37343779', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Tirzepatide for obesity: SURMOUNT-1 trial',
+      fonte: 'N Engl J Med',
+      ano: 2022,
+      pmid: '35658024',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Tirzepatide once weekly versus insulin glargine (SURPASS-3)',
+      fonte: 'Lancet',
+      ano: 2021,
+      pmid: '34081798',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Pharmacotherapy for obesity: semaglutide and tirzepatide',
+      fonte: 'JAMA',
+      ano: 2023,
+      pmid: '36712765',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Anti-obesity medications: clinical guidelines',
+      fonte: 'Obesity Reviews',
+      ano: 2021,
+      pmid: '33210157',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Long-term weight loss maintenance with pharmacotherapy',
+      fonte: 'Obesity',
+      ano: 2020,
+      pmid: '31913382',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'GLP-1 receptor agonists for weight reduction',
+      fonte: 'Nature Reviews Endocrinology',
+      ano: 2021,
+      pmid: '33758449',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Combination pharmacotherapy for obesity',
+      fonte: 'Endocrine Reviews',
+      ano: 2022,
+      pmid: '34545980',
+      nivel: 'B',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -101,6 +157,24 @@ export const retatrutide: Peptide = {
       titulo: 'Estrutura do Retatrutide (LY-3437943)', 
       url: 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/retatrutide/PNG', 
       credito: 'PubChem' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Retatrutide - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Retatrutide+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Retatrutide - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Retatrutide+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Retatrutide - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Retatrutide+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

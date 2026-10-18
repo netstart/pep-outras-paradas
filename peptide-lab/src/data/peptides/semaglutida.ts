@@ -125,6 +125,30 @@ export const semaglutida: Peptide = {
       pmid: '27040065', 
       nivel: 'A', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Tirzepatide for obesity: SURMOUNT-1 trial',
+      fonte: 'N Engl J Med',
+      ano: 2022,
+      pmid: '35658024',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Tirzepatide once weekly versus insulin glargine (SURPASS-3)',
+      fonte: 'Lancet',
+      ano: 2021,
+      pmid: '34081798',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Pharmacotherapy for obesity: semaglutide and tirzepatide',
+      fonte: 'JAMA',
+      ano: 2023,
+      pmid: '36712765',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -140,6 +164,24 @@ export const semaglutida: Peptide = {
       tipo: 'artigo', 
       titulo: 'Semaglutide for cardiovascular outcomes', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/27040065/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Semaglutida - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Semaglutida+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Semaglutida - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Semaglutida+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Semaglutida - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Semaglutida+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

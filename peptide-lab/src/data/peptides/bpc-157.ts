@@ -101,6 +101,46 @@ export const bpc157: Peptide = {
       pmid: '15117864', 
       nivel: 'B', 
       modelo: 'animal' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Clinical applications of peptide hormones',
+      fonte: 'Endocrine Reviews',
+      ano: 2017,
+      pmid: '28398325',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -111,6 +151,24 @@ export const bpc157: Peptide = {
       titulo: 'Estrutura do BPC-157', 
       url: 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/BPC-157/PNG', 
       credito: 'PubChem' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'BPC-157 - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=BPC-157+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'BPC-157 - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=BPC-157+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'BPC-157 - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=BPC-157+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

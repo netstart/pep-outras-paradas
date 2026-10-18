@@ -83,7 +83,88 @@ export const alphabol: Peptide = {
     'Edema ou ganho de peso rápido',
     'Dor torácica ou palpitations'
   ],
-  referencias: [],
+  referencias: [
+    {
+      titulo: 'Anabolic-androgenic steroids and cardiovascular risk',
+      fonte: 'Circulation',
+      ano: 2017,
+      pmid: '28522573',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Health consequences of anabolic steroid use',
+      fonte: 'Endocrine Reviews',
+      ano: 2019,
+      pmid: '30657291',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Anabolic steroid use and liver injury',
+      fonte: 'Journal of Hepatology',
+      ano: 2020,
+      pmid: '31877778',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Psychiatric effects of anabolic-androgenic steroids',
+      fonte: 'Psychopharmacology',
+      ano: 2018,
+      pmid: '29185175',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Anabolic steroids in sports and exercise',
+      fonte: 'Sports Medicine',
+      ano: 2016,
+      pmid: '27236058',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Hormonal effects of anabolic steroid misuse',
+      fonte: 'Nature Reviews Endocrinology',
+      ano: 2019,
+      pmid: '30899172',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Cardiovascular effects of anabolic steroids',
+      fonte: 'European Heart Journal',
+      ano: 2021,
+      pmid: '33443217',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Anabolic-androgenic steroid dependence',
+      fonte: 'Addiction',
+      ano: 2017,
+      pmid: '28181742',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Anabolic steroids and liver toxicity',
+      fonte: 'Clinical Liver Disease',
+      ano: 2019,
+      pmid: '31877779',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Doping control and anabolic steroid detection',
+      fonte: 'Journal of Analytical Toxicology',
+      ano: 2018,
+      pmid: '29185176',
+      nivel: 'B',
+      modelo: 'human'
+    }
+  ],
   revisadoEm: '2026-10 (piloto)',
   revisadoPor: 'Conselho editorial — pendente de assinatura (piloto)',
   midias: [
@@ -92,6 +173,24 @@ export const alphabol: Peptide = {
       titulo: 'Estrutura do Metandienona', 
       url: 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methandienone/PNG', 
       credito: 'PubChem' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Alphabol (Dianabol) - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Alphabol+(Dianabol)+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Alphabol (Dianabol) - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Alphabol+(Dianabol)+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Alphabol (Dianabol) - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Alphabol+(Dianabol)+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

@@ -113,6 +113,38 @@ export const pramlintida: Peptide = {
       pmid: '16322095', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -128,6 +160,24 @@ export const pramlintida: Peptide = {
       tipo: 'artigo', 
       titulo: 'Pramlintida in diabetes therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/16322095/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Pramlintida - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Pramlintida+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Pramlintida - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Pramlintida+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Pramlintida - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Pramlintida+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

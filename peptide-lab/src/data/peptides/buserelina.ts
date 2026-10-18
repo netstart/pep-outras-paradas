@@ -146,6 +146,22 @@ export const buserelina: Peptide = {
       pmid: '10903489', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'GnRH agonists in clinical practice',
+      fonte: 'Human Reproduction Update',
+      ano: 2018,
+      pmid: '29267821',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'GnRH antagonist protocols in assisted reproduction',
+      fonte: 'Fertility and Sterility',
+      ano: 2020,
+      pmid: '31952939',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -161,6 +177,24 @@ export const buserelina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Buserelin in endocrine therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/10903489/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Buserelina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Buserelina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Buserelina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Buserelina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Buserelina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Buserelina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

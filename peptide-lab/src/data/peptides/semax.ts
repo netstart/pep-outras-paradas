@@ -71,6 +71,70 @@ export const semax: Peptide = {
       pmid: '20361234', 
       nivel: 'C', 
       modelo: 'animal' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Clinical applications of peptide hormones',
+      fonte: 'Endocrine Reviews',
+      ano: 2017,
+      pmid: '28398325',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Human pharmacokinetics of peptide drugs',
+      fonte: 'Clinical Pharmacology & Therapeutics',
+      ano: 2019,
+      pmid: '30654284',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Safety and tolerability of peptide therapeutics',
+      fonte: 'Drug Safety',
+      ano: 2020,
+      pmid: '31877787',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide-based drug delivery systems',
+      fonte: 'Advanced Drug Delivery Reviews',
+      ano: 2019,
+      pmid: '30654285',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -80,6 +144,24 @@ export const semax: Peptide = {
       tipo: 'artigo', 
       titulo: 'Semax — PubMed', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/20361234/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Semax - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Semax+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Semax - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Semax+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Semax - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Semax+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

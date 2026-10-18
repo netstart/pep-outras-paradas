@@ -117,6 +117,38 @@ export const degarelix: Peptide = {
       pmid: '20101254', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide drug discovery and development',
+      fonte: 'Journal of Medicinal Chemistry',
+      ano: 2020,
+      pmid: '31877786',
+      nivel: 'B',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -132,6 +164,24 @@ export const degarelix: Peptide = {
       tipo: 'artigo', 
       titulo: 'Degarelix in prostate cancer treatment', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/20101254/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Degarelix - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Degarelix+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Degarelix - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Degarelix+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Degarelix - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Degarelix+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

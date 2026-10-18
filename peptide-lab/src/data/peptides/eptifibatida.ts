@@ -129,6 +129,30 @@ export const eptifibatida: Peptide = {
       pmid: '16322095', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -144,6 +168,24 @@ export const eptifibatida: Peptide = {
       tipo: 'artigo', 
       titulo: 'Eptifibatida in cardiovascular therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/16322095/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Eptifibatida - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Eptifibatida+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Eptifibatida - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Eptifibatida+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Eptifibatida - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Eptifibatida+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

@@ -1,5 +1,7 @@
 This is an Expo/React Native mobile application. Prioritize mobile-first patterns, performance, and cross-platform compatibility.
 
+> **Referência obrigatória:** Consulte `requisitos.md` (raiz do workspace) antes de iniciar qualquer tarefa relacionada a substâncias. Ele define o Requisito 1 (10 referências científicas por substância) e o Requisito 2 (3 vídeos YouTube por substância via array `midias`). O arquivo `peptide-lab/requisitos.md` contém a especificação detalhada.
+
 ## Expo has changed — do not trust your training data
 
 Expo ships breaking changes every SDK release. APIs you remember are likely renamed, moved, or removed. Before writing any code that touches an Expo, EAS, or React Native API:

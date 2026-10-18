@@ -131,6 +131,30 @@ export const terlipressina: Peptide = {
       pmid: '20101254', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Peptide therapeutics: current status and future directions',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2018,
+      pmid: '29267829',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Therapeutic peptides: applications and challenges',
+      fonte: 'Pharmacological Reviews',
+      ano: 2019,
+      pmid: '30654283',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -146,6 +170,24 @@ export const terlipressina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Terlipressina in cardiovascular therapy', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/20101254/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Terlipressina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Terlipressina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Terlipressina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Terlipressina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Terlipressina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Terlipressina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

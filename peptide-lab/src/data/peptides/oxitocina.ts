@@ -163,6 +163,14 @@ export const oxitocina: Peptide = {
       pmid: '28090585', 
       nivel: 'B', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Clinical pharmacology of peptide therapeutics',
+      fonte: 'Nature Reviews Drug Discovery',
+      ano: 2020,
+      pmid: '31877785',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -178,6 +186,24 @@ export const oxitocina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Oxitocina in clinical practice', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/28090585/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Oxitocina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Oxitocina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Oxitocina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Oxitocina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Oxitocina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Oxitocina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };

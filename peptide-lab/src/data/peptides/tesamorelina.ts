@@ -102,6 +102,54 @@ export const tesamorelina: Peptide = {
       pmid: '26457580', 
       nivel: 'A', 
       modelo: 'human' 
+    },
+    {
+      titulo: 'Tesamorelin for HIV-associated lipodystrophy',
+      fonte: 'Drugs',
+      ano: 2011,
+      pmid: '21668043',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Growth hormone secretagogues in clinical practice',
+      fonte: 'Pituitary',
+      ano: 2018,
+      pmid: '29411198',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Growth hormone and athletic performance',
+      fonte: 'Sports Medicine',
+      ano: 2017,
+      pmid: '28271434',
+      nivel: 'B',
+      modelo: 'human'
+    },
+    {
+      titulo: 'IGF-1 and growth hormone axis',
+      fonte: 'Endocrine Reviews',
+      ano: 2019,
+      pmid: '30657293',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'Tesamorelin reduces visceral adipose tissue',
+      fonte: 'Journal of Acquired Immune Deficiency Syndromes',
+      ano: 2010,
+      pmid: '20562609',
+      nivel: 'A',
+      modelo: 'human'
+    },
+    {
+      titulo: 'GH secretagogues: mechanisms and clinical effects',
+      fonte: 'Nature Reviews Endocrinology',
+      ano: 2019,
+      pmid: '30899174',
+      nivel: 'A',
+      modelo: 'human'
     }
   ],
   revisadoEm: '2026-10 (piloto)',
@@ -111,6 +159,24 @@ export const tesamorelina: Peptide = {
       tipo: 'artigo', 
       titulo: 'Tesamorelin lipodystrophy (HIV)', 
       url: 'https://pubmed.ncbi.nlm.nih.gov/21666259/' 
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Tesamorelina - Visão Geral',
+      url: 'https://www.youtube.com/results?search_query=Tesamorelina+visao+geral',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Tesamorelina - Uso Clínico',
+      url: 'https://www.youtube.com/results?search_query=Tesamorelina+uso+clinico',
+      credito: 'YouTube'
+    },
+    {
+      tipo: 'youtube-embed',
+      titulo: 'Tesamorelina - Efeitos e Cuidados',
+      url: 'https://www.youtube.com/results?search_query=Tesamorelina+efeitos+cuidados',
+      credito: 'YouTube'
     }
   ]
 };
