@@ -13,6 +13,7 @@ export interface Reference {
   url?: string;
   nivel: EvidenceLevel;
   modelo: EvidenceModel;
+  resultado?: 'positivo' | 'negativo' | 'neutro';
 }
 
 export interface Dosagem {

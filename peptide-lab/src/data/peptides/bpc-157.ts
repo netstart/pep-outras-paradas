@@ -92,7 +92,8 @@ export const bpc157: Peptide = {
       ano: 2018, 
       pmid: '29398354', 
       nivel: 'B', 
-      modelo: 'human' 
+      modelo: 'human',
+      resultado: 'positivo'
     },
     { 
       titulo: 'BPC 157 prevents and heals gastric ulcers in rats', 
@@ -100,7 +101,8 @@ export const bpc157: Peptide = {
       ano: 2004, 
       pmid: '15117864', 
       nivel: 'B', 
-      modelo: 'animal' 
+      modelo: 'animal',
+      resultado: 'positivo'
     },
     {
       titulo: 'Clinical pharmacology of peptide therapeutics',
@@ -124,7 +126,8 @@ export const bpc157: Peptide = {
       ano: 2019,
       pmid: '30654283',
       nivel: 'A',
-      modelo: 'human'
+      modelo: 'human',
+      resultado: 'negativo'
     },
     {
       titulo: 'Peptide drug discovery and development',
@@ -132,7 +135,8 @@ export const bpc157: Peptide = {
       ano: 2020,
       pmid: '31877786',
       nivel: 'B',
-      modelo: 'human'
+      modelo: 'human',
+      resultado: 'neutro'
     },
     {
       titulo: 'Clinical applications of peptide hormones',

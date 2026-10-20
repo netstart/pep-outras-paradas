@@ -20,19 +20,37 @@ export function Section({ title, children, defaultOpen = true }: { title: string
 
 export function ReferenceItem({ refe, index }: { refe: Reference; index: number }) {
   const link = refe.url ?? (refe.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${refe.pmid}/` : refe.doi ? `https://doi.org/${refe.doi}` : null);
+  const positivo = refe.resultado === 'positivo';
+  const negativo = refe.resultado === 'negativo';
+  const neutro = refe.resultado === 'neutro';
   return (
     <Pressable
       disabled={!link}
       onPress={() => link && WebBrowser.openBrowserAsync(link)}
       style={styles.ref}
       accessibilityRole={link ? 'link' : 'text'}
-      accessibilityLabel={`Referência ${index + 1}: ${refe.titulo}. ${refe.fonte}, ${refe.ano}`}
+      accessibilityLabel={`Referência ${index + 1}: ${refe.titulo}. ${refe.fonte}, ${refe.ano}.${positivo ? ' Resultado positivo.' : negativo ? ' Resultado negativo.' : neutro ? ' Necessita de mais estudos.' : ''}`}
     >
       <Text style={styles.refText}>
         [{index + 1}] {refe.titulo}. <Text style={{ fontStyle: 'italic' }}>{refe.fonte}</Text>, {refe.ano}.
         {refe.pmid ? ` PMID: ${refe.pmid}.` : ''}
         {link ? '  Toque para abrir a fonte →' : ''}
       </Text>
+      {positivo && (
+        <Text style={styles.refPositivo} accessibilityLabel="Resultado positivo">
+          🟢
+        </Text>
+      )}
+      {negativo && (
+        <Text style={styles.refNegativo} accessibilityLabel="Resultado negativo">
+          🔴
+        </Text>
+      )}
+      {neutro && (
+        <Text style={styles.refPrecisaEstudos} accessibilityLabel="Necessita de mais estudos">
+          🟠
+        </Text>
+      )}
       <ModelBadge modelo={refe.modelo} />
     </Pressable>
   );
@@ -55,6 +73,9 @@ const styles = StyleSheet.create({
   body: { paddingHorizontal: 14, paddingBottom: 14 },
   ref: { paddingVertical: 10, borderTopWidth: 1, borderTopColor: colors.border, gap: 6 },
   refText: { fontSize: 14, color: colors.text, lineHeight: 20 },
+  refPositivo: { color: colors.ok, fontSize: 14, marginLeft: 6 },
+  refNegativo: { color: colors.danger, fontSize: 14, marginLeft: 6 },
+  refPrecisaEstudos: { color: colors.warning, fontSize: 14, marginLeft: 6 },
   row: { flexDirection: 'row', paddingVertical: 6, gap: 8 },
   rowLabel: { width: 130, fontSize: 14, fontWeight: '600', color: colors.textSecondary },
   rowValue: { flex: 1, fontSize: 14, color: colors.text },

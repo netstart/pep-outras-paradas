@@ -36,6 +36,21 @@ export function SynergyContraSection({ peptide }: Props) {
                       accessibilityRole="link"
                     >
                       <Text style={styles.refText}>{r.titulo}</Text>
+                      {r.resultado === 'positivo' && (
+                        <Text style={styles.refPositivo} accessibilityLabel="Resultado positivo">
+                          🟢
+                        </Text>
+                      )}
+                      {r.resultado === 'negativo' && (
+                        <Text style={styles.refNegativo} accessibilityLabel="Resultado negativo">
+                          🔴
+                        </Text>
+                      )}
+                      {r.resultado === 'neutro' && (
+                        <Text style={styles.refPrecisaEstudos} accessibilityLabel="Necessita de mais estudos">
+                          🟠
+                        </Text>
+                      )}
                     </Pressable>
                   ))}
                 </View>
@@ -67,6 +82,21 @@ export function SynergyContraSection({ peptide }: Props) {
                       accessibilityRole="link"
                     >
                       <Text style={styles.refText}>{r.titulo}</Text>
+                      {r.resultado === 'positivo' && (
+                        <Text style={styles.refPositivo} accessibilityLabel="Resultado positivo">
+                          🟢
+                        </Text>
+                      )}
+                      {r.resultado === 'negativo' && (
+                        <Text style={styles.refNegativo} accessibilityLabel="Resultado negativo">
+                          🔴
+                        </Text>
+                      )}
+                      {r.resultado === 'neutro' && (
+                        <Text style={styles.refPrecisaEstudos} accessibilityLabel="Necessita de mais estudos">
+                          🟠
+                        </Text>
+                      )}
                     </Pressable>
                   ))}
                 </View>
@@ -119,5 +149,20 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#1565c0',
     fontStyle: 'italic',
+  },
+  refPositivo: {
+    color: '#00A86B',
+    fontSize: 12,
+    marginLeft: 6,
+  },
+  refNegativo: {
+    color: '#d32f2f',
+    fontSize: 12,
+    marginLeft: 6,
+  },
+  refPrecisaEstudos: {
+    color: '#E85D04',
+    fontSize: 12,
+    marginLeft: 6,
   },
 });
