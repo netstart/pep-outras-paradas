@@ -1,4 +1,5 @@
 export * from './aod-9604';
+export * from './aptegromab-mstn';
 export * from './bpc-157';
 export * from './five-amino-1mq';
 export * from './glow';

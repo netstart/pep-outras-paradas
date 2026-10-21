@@ -18,6 +18,7 @@ export const peptideCatalog: { id: string; nome: string; arquivo: string }[] = [
   { id: 'semaglutida', nome: 'Semaglutida', arquivo: 'semaglutida' },
 
   // Eixo GH / Performance (arquivos individuais existentes)
+  { id: 'aptegromab-mstn', nome: 'Aptegromab', arquivo: 'aptegromab-mstn' },
   { id: 'cjc-1295', nome: 'CJC-1295 (com DAC)', arquivo: 'cjc-1295' },
   { id: 'tesamorelina', nome: 'Tesamorelina', arquivo: 'tesamorelina' },
   { id: 'sermorelina', nome: 'Sermorelina', arquivo: 'sermorelina' },
@@ -104,6 +105,7 @@ export const peptideCatalog: { id: string; nome: string; arquivo: string }[] = [
   { id: 'trembolona', nome: 'Trembolona', arquivo: '../esteroides/trembolona' },
   { id: 'masteron', nome: 'Masteron', arquivo: '../esteroides/masteron' },
   { id: 'primabolan', nome: 'Primabolan', arquivo: '../esteroides/primabolan' },
+  { id: 'hemogenin', nome: 'Hemogenin', arquivo: '../esteroides/hemogenin' },
 ];
 
 // Mapa para referência rápida por ID

@@ -42,6 +42,7 @@ import {
   alprazolam,
   erectalis,
   hgh,
+  aptegromabMstn,
 } from './peptides/index';
 import { turinabol } from './esteroides/turinabol';
 import { enantato_de_testosterona } from './esteroides/enantato_de_testosterona';
@@ -59,6 +60,7 @@ import { cipionato_de_testosterona } from './esteroides/cipionato_de_testosteron
 import { dianabol } from './esteroides/dianabol';
 import { proviron } from './esteroides/proviron';
 import { superdrol } from './esteroides/superdrol';
+import { hemogenin } from './esteroides/hemogenin';
 
 export const peptides: Peptide[] = [
   aod9604,
@@ -103,6 +105,7 @@ export const peptides: Peptide[] = [
   alprazolam,
   erectalis,
   hgh,
+  aptegromabMstn,
 
   // Esteróides anabolizantes
   turinabol,
@@ -123,4 +126,5 @@ export const peptides: Peptide[] = [
   dianabol,
   proviron,
   superdrol,
+  hemogenin,
 ];

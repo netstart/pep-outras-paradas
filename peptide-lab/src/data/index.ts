@@ -23,6 +23,7 @@ export { enantato_de_testosterona } from './esteroides/enantato_de_testosterona'
 export { masteron } from './esteroides/masteron';
 export { primabolan } from './esteroides/primabolan';
 export { oxandrolona } from './esteroides/oxandrolona';
+export { hemogenin } from './esteroides/hemogenin';
 export { decanoato_de_nandrolona } from './esteroides/decanoato_de_nandrolona';
 export { trembolona } from './esteroides/trembolona';
 export { proprionato_de_testosterona } from './esteroides/proprionato_de_testosterona';
